@@ -1,0 +1,41 @@
+form {
+	.border-block {
+		border: 1px solid #000;
+	}
+}
+.feedbacks, .set {
+	form {
+		max-width: 500px;
+		width: 100%;
+		background: rgba(223, 224, 221, 0.82);
+		padding: 10px;
+		border: 8px dashed grey;
+		input {
+			max-width: 500px;
+			display: block;
+			width: 100%;
+			margin: 15px auto;
+		}
+		textarea {
+			width: 100%;
+			max-width: 500px;
+			resize: none;
+			display: block;
+			margin: 15px auto;
+			font-size: 25px;
+			padding: 5px 15px
+		}
+		button {
+			background: white;
+			border: 1px solid gray;
+			padding: 5px 15px;
+			max-width: 250px;
+			width: 50%;
+			text-transform: uppercase;
+			&:hover {
+				background: #b8b8b8;
+			}
+		}
+		h3{margin: 0;}
+	}
+}

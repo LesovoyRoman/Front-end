@@ -1,0 +1,15 @@
+@import "../base/variables";
+
+.features {background: url('../img/p4.png') repeat; .col-md-4{text-align:center; min-height: 275px;} padding-bottom: 40px; border-top: 2px solid #599859;
+  /* .modal-conf {position: relative} */
+  p{text-transform: uppercase; font-weight: bold;  font-size: 18px; text-align: center;}
+  img{margin: 15px auto; border-radius: 50%;} span{font-size: 14px;}}
+
+
+.wrap-img-slide-1{background: url("../img/features1.png")center no-repeat;}
+.wrap-img-slide-2{background: url("../img/features2.png")center no-repeat;}
+.wrap-img-slide-3{background: url("../img/features3.png")center no-repeat;}
+.wrap-img-slide-4{background: url("../img/features4.png")center no-repeat;}
+.wrap-img-slide-5{background: url("../img/features5.png")center no-repeat;}
+.wrap-img-slide-6{background: url("../img/features6.png")center no-repeat;}
+.wrap-img-slide-1, .wrap-img-slide-2, .wrap-img-slide-3, .wrap-img-slide-4, .wrap-img-slide-5, .wrap-img-slide-6{height: 440px; background-size: contain;}

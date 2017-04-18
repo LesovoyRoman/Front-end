@@ -1,0 +1,327 @@
+
+  .left-close-pall, .right-close-pall {
+    width: 200%;
+    left:-200%;
+    top:-50%;
+    height: 300%;
+    position: absolute;
+  }
+  .right-close-pall {left: 100%}
+
+
+  .text-data {
+    font-family: 'Segoe UI';
+    font-size: 29px;
+    color: red;
+    font-weight: 100;
+    border: 1px solid #a7a7a7;
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .modal, .modal-conf, .modal-feedback, .modal-order{
+    .container {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  .modal-pall, .modal-pall-conf, .modal-pall-conf-binoculus, .modal-pall-feedback, .modal-pall-order{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 31, 30, 0.88);
+    top: 0;
+    left: 0;
+    z-index: 99000;
+    display: none;
+  }
+
+  .modal-body .leave-order {
+    width: 100%;
+    color: #616161;
+    font-family: HelveticaNeueCyr-medium;
+    font-size: 20px;
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+    position: relative;
+
+    &:before { 
+        content: "";
+        position: absolute; 
+        width: 50%; 
+        bottom: 0; 
+        left: 25%; 
+        height: 1px; 
+        z-index: 5000;
+        background: #ac4d06;
+    }
+  }
+
+  .modal-order {
+    z-index: 99999;
+  }
+
+  .modal-pall-conf-binoculus{ .modal-header{margin-left: 20px; margin-top: 20px;}}
+  .modal, .modal-conf, .modal-conf-binoculus, .modal-feedback, .modal-order{
+    display: none;
+    width: 380px;
+    padding: 28px 23px;
+    position: fixed;
+    margin-left: -300px;
+    top: 50%;
+    left: 50%;
+    height: 550px;
+    margin-top: -250px;
+    background: #fff;
+    border: 10px solid rgba(221, 189, 97, 0.9);
+    border-radius: 7px;
+  }
+  .modal-conf, .modal-feedback, .modal-order,.modal-conf-binoculus{width: 80%; left:50%; margin-left: -40%;}
+  .modal-header {
+    position: relative;
+    border: none;
+    padding: 0;
+  }
+  .modal-body {
+    text-align: center;
+    overflow: hidden;
+    height: 95%;
+    padding: 0;
+
+
+    .wrap-img {
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+      padding-bottom: 15px;
+    }
+    p {
+      text-align: left;
+    }
+  }
+  .modal h2 {
+    margin-top: 0;
+    padding-bottom: 30px;
+  }
+  .modal .close-modal, .modal-conf .close-modal, .modal-feedback .close-modal, .modal-order .close-modal {
+    position: absolute;
+    display: block;
+    height: 25px;
+    width: 25px;
+    right: 20px;
+    top: 10px;
+    opacity: .3;
+    transition: all .5s ease;
+    &:hover {
+      opacity: 6;
+    }
+  }
+
+  .visible {
+    visibility: visible;
+  }
+
+  .modal, .modal-conf , .modal-feedback, .modal-order{
+    input {
+      border-radius: 4px;
+      border: 1px solid #7a7a7a;
+      width: 100% !important;
+      margin-bottom: 13px;
+      padding-top: 14px;
+      padding-right: 5px;
+      padding-bottom: 14px;
+      padding-left: 39px;
+      font-size: 25px;
+    }
+  }
+
+    .modal-order .get-discount {
+    background: #ffb21c;
+    text-decoration: none;
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+    padding: 16px 18px;
+    display: block;
+    margin: 7px auto 46px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: HelveticaNeueCyr-light;
+    font-size: 20px;
+    -webkit-box-shadow: 0px 5px 0px 0px rgba(199,138,20,1);
+    -moz-box-shadow: 0px 5px 0px 0px rgba(199,138,20,1);
+    box-shadow: 0px 5px 0px 0px rgba(199,138,20,1);
+
+    &:hover {
+      background: #eaa112;
+    }
+  }
+
+  .modal-order form label {
+    width: 100%;
+  }
+
+  .modal-order {
+      input::-moz-placeholder {
+        font-family: HelveticaNeueCyr-light;
+        font-size: 20px;
+        color: #949494;
+      }
+
+      input::-webkit-input-placeholder {
+        font-family: HelveticaNeueCyr-light;
+        font-size: 20px;
+        color: #949494;
+      }
+
+      .input-name { 
+        &:before { 
+          background: url("images/section1/people-form.png")no-repeat center center; 
+        }
+      }
+
+      .input-phone {
+        &:before {
+          background: url("images/section1/phone-form.png")no-repeat center center; 
+        }
+      }
+
+      label { 
+        position: relative; margin-right:15px; 
+
+        &:before { 
+          content: ""; position: absolute; width: 20px;
+          height: 25px; top: 16px; left:11px;
+        }
+      }
+  }
+
+  .application-wrap {
+    border-radius: 2px;
+    margin-bottom: 60px;
+  }
+
+
+
+
+  @media (max-width: 630px) {
+
+    .modal-order .get-discount {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .modal-body .leave-order {
+    font-size: 18px;
+  }
+
+    .modal, .modal-conf, .modal-feedback, .modal-order{
+      width: 320px;
+      margin-left: 100px;
+      margin-top: -200px;
+
+      label { 
+        &:before { 
+          top: 7px; left:11px;
+        }
+      }
+
+
+
+      input {
+          margin-bottom: 10px;
+          padding-top: 10px;
+          padding-right: 5px;
+          padding-bottom: 10px;
+          padding-left: 39px;
+          font-size: 14px;
+      }
+
+      input::-moz-placeholder {
+        font-size: 14px;
+      }
+
+      input::-webkit-input-placeholder {
+        font-size: 14px;
+      }
+
+      .submit {
+        font-size: 22px;
+        width: 100%;
+      }
+    }
+  }
+  .modal-order { 
+    padding-bottom: 23px;
+    height: auto;}
+
+  .modal-order{
+    width: 100%;
+    left: calc(50% - 250px);
+    max-width: 500px;
+    margin-left: 0;
+  }
+  @media (max-width: 500px) {
+    .modal-order{left: 0;}
+    html body .feedbacks  .application-wrap .modal-feedback { left: 0;}
+  }
+
+    @media (max-width: 480px) {
+
+    .modal-order .get-discount {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .modal-body .leave-order {
+    font-size: 16px;
+  }
+
+    .modal-order{
+    width: 100%;
+    left: calc(50% - 250px);
+    max-width: 500px;
+    margin-left: 0;
+  }
+  }
+
+      @media (max-width: 600px) {
+        html body .application-wrap .modal-order{
+    width: 76%;
+    left: 12%;
+    margin-left: 0;
+
+    input::-moz-placeholder {
+        font-size: 16px;
+    }
+
+    input::-webkit-input-placeholder {
+        font-size: 16px;
+    }
+  }
+  }
+  @media (max-width: 400px) {
+    html body .application-wrap .modal-order{
+      width: 90%;
+      left: 5%;
+
+      input::-moz-placeholder {
+        font-size: 14px;
+      }
+
+      input::-webkit-input-placeholder {
+        font-size: 14px;
+      }
+    }
+  }
+
+
+
+  @media (max-width: 670px) {
+    html body .modal-feedback .container .modal-body form {input, textarea{font-size: 18px; margin: 5px auto;}}
+  }
+  @media (max-width: 500px) {
+    html body .modal-feedback .container .modal-body form {input, textarea{font-size: 16px;}}
+  }

@@ -1,0 +1,197 @@
+.reviews {
+
+	background: url('images/reviews-bg.jpg') no-repeat center / cover;
+
+	h2 {
+		font-family: HelveticaNeueCyr-medium;
+		font-size: 37.5px;
+		color: #fff;
+		text-align: center;
+		padding-top: 58px;
+		padding-bottom: 50px;
+	}
+
+	@media (max-width: 550px) {
+		h2 {
+			font-size: 28px;
+		}
+	}
+
+	h4 {
+		font-family: HelveticaNeueCyr-medium;
+		font-size: 29px;
+		text-transform: none;
+		color: #046b60;
+		text-align: center;
+		padding-top: 24px;
+		padding-bottom: 30px;
+	}
+
+	p {
+		font-family: HelveticaNeueCyr-medium;
+		font-size: 16px;
+		color: #767676;
+		text-align: center;
+	}
+
+	.one-review {
+		margin: 0 auto;
+		padding: 14px 10px 43px;
+		background: #fff;
+		border-radius: 4px;
+	}
+
+	.img-wrap img {
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.revs {
+		padding-bottom: 97px;
+	}
+
+}
+
+			.reviews, .top-fix {
+				form {
+				padding-top:20px; padding-bottom: 20px; background: white; width: 100%; max-width: 960px;
+				margin: 0 auto 51px; text-align: center;
+				border: 7px solid rgba(157, 112, 22, 0.76); clear: both; border-radius: 8px;
+
+					input, button {
+						width: 100%; max-width: 260px;
+						margin: 10px 15px; padding: 12px;
+					}
+
+					button {
+						vertical-align:top; background: #ffb21c; color: white;
+						border:none; border-bottom: 4px solid #b57c14;
+						font-size: 16px; transition: all 0.4s;
+						border-radius: 3px; padding-left: 15px; padding-right: 15px;
+
+						&:hover {
+							background: #eaa112; border-bottom: 4px solid #906213;
+						}
+					}
+
+					input {
+						color: gray; padding-left: 30px;
+						border-radius: 3px;
+						border: 1px solid #515151;
+					}
+
+					label {
+						position: relative; margin-right:15px;
+
+						&:before {
+							content: ""; position: absolute; width: 20px;
+							height: 25px; top: 18px; left:21px;
+						}
+					}
+
+					.input-name {
+						&:before {
+							background: url("images/section1/people-form.png")no-repeat center center;
+						}
+					}
+
+					.input-phone {
+						&:before {
+							background: url("images/section1/phone-form.png")no-repeat center center;
+						}
+					}
+
+					.leave-order {
+						padding: 0 !important;
+					}
+
+					.leave-order {
+						color: #333333;  margin-bottom: 25px;
+						text-transform: none; font-size: 21px; position: relative;
+
+					&:before {
+						content: ""; position: absolute; width: 50%;
+						bottom: -15px; left: 25%; height: 1px; background: #056c61;
+					}
+				}
+			}
+		}
+
+@media (max-width: 991px) {
+	.reviews .one-review {
+		width: 70%;
+		margin-bottom: 50px;
+	}
+
+	.reviews .revs {
+		padding-bottom: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.reviews form, .top-fix form {
+		max-width: 600px;
+	}
+}
+
+@media (max-width: 610px) {
+	.reviews form , .top-fix form {
+		max-width: 450px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+@media (max-width: 480px) {
+
+	.reviews .one-review {
+		width: 90%;
+	}
+
+	.reviews form , .top-fix form{
+		max-width: 400px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+@media (max-width: 410px) {
+	.reviews form , .top-fix form{
+		max-width: 360px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+@media (max-width: 370px) {
+	.reviews form, .top-fix form {
+		max-width: 300px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.reviews form input[type="text"], .top-fix form input[type="text"]  {
+		margin: 10px auto;
+		font-size: 12px;
+	}
+
+	.reviews form label, .top-fix form label {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.reviews form button, .top-fix form button {
+		width: 90%;
+		margin: 15px auto;
+	}
+
+	.reviews form label:before, .top-fix form label:before {
+		top: 18px;
+		left: 7px;
+	}
+
+	.reviews form button, .top-fix form button {
+		font-size: 14px;
+	}
+}

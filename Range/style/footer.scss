@@ -1,0 +1,18 @@
+@import "variables";
+@import "head";
+
+.social-panel {width: 100%; height: 100px; display: flex; justify-content: center; align-items: center; padding: 30px 12%;
+background-color: #16467b;
+.social-icon-1, .social-icon-2, .social-icon-3{width: 38px; height: 38px; margin:0 15px; background-color: #1d57a2; transition: all 0.4s ease;
+ border: 1px solid white; background-repeat: no-repeat; border-radius: 50%; a{width: 100%; height: 100%; display: block; border-radius: 50%;}
+  &:nth-child(1){background-image: url("images/sprite-links.png"); background-position: -52px 6px ;}
+  &:nth-child(2){background-image: url("images/sprite-links.png"); background-position: 10px 6px;}
+  &:nth-child(3){background-image: url("images/sprite-links.png"); background-position: -120px center ;}
+&:hover{box-shadow: 0 0 12px 2px white; background-color: #1f0027;}
+}}
+
+.copy {width: 100%; display: flex; justify-content: space-between; padding: 3% 12% 4% 12%; align-items: flex-start;
+  background-color: #002854; border-top: 2px solid white;
+  .copyright{@extend .low-description; text-transform: uppercase; margin: 10px 0; letter-spacing: 3px; font-size:16px; color: white; }
+  .describe-copy{font-family: 'Open Sans', sans-serif;  font-size: 14px; margin: 10px 0; max-width: 65%; color: #595879;}}
+

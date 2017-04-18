@@ -1,0 +1,13 @@
+@import "../variables";
+
+.compare-fix {
+  .compare-table{width: 100%;  max-width: 1000px; margin: 0 auto;}
+table tr:nth-child(1) { td {text-align: center; }}
+td {border: 1px solid black; padding: 10px 15px;}
+  padding: 50px 0; color: #616161;
+}
+.usual-header {font-size: 38px; color: #046b60; margin: 0 auto 40px auto; text-align: center;}
+
+@media (max-width: 450px) {
+  .compare-fix table tr td {padding: 7px 3px; padding-right: 2px;}
+}

@@ -1,0 +1,8 @@
+@import "variables";
+@font-face {font-family: 'Helvetica'; src: url(../fonts/helveticaneuecyr-bold.otf);}
+@font-face {font-family: 'HelveticaNeue, light'; src: url(../fonts/HelveticaNeue-Light.ttf);}
+h2.get-free {color: $color-text; font-size: 32px; font-family: Helvetica; word-wrap: break-word; font-weight: bold;}
+p.details {color: $color-text; font-size: 18px; font-family: "Helvetica, light"; }
+p.explain {font-family: Helvetica; font-size: 14px; line-height: 17px; color: grey; margin-bottom: 35px;}
+h2.get-in-touch {@extend .get-free;}
+footer p{color: #cecece; font-size: 14px; font-family: Helvetica; line-height: 65px;}

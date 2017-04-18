@@ -1,0 +1,45 @@
+h1 {
+  font-family: 'Arima Madurai', cursive;
+  font-size: 34px;
+  color: white; }
+
+h2, h4, .sign-up {
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 44px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 8%; }
+
+h4 {
+  font-size: 26px;
+  margin-top: 4%;
+  text-transform: none; }
+
+h2.recently-items, h4.recently-items, .recently-items.sign-up {
+  font-size: 32px;
+  margin: 3% 0 3% 0;
+  color: #898989;
+  text-transform: none; }
+
+h5.free-app {
+  font-size: 24px;
+  display: inline-block;
+  color: white;
+  font-family: 'Open-Sans', sans-serif; }
+  h5.free-app pre {
+    color: #cccccc;
+    display: inline-block; }
+
+.sign-up {
+  font-size: 14px;
+  text-transform: lowercase; }
+
+.download:hover h5.free-app {
+  color: #ff6c14;
+  transition: 500ms; }
+
+.download:hover h5.free-app pre {
+  color: #ad4100;
+  transition: 500ms; }
+
+/*# sourceMappingURL=typography.css.map */

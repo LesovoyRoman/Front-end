@@ -1,0 +1,132 @@
+html body .buy-me { 
+
+  .block p {
+    font-size: 16px;
+    margin-bottom: 2px;
+  }
+
+  .block p span {
+    font-size: 26px;
+  }
+
+
+  .block {height: auto;} .border-block {width: 100%;} .mt { margin-top: 75px;} .two-block li { font-size: 25px; } .two-block li span { font-size: 28px !important; font-weight: bold;} .header-content { background: url("../img/photo-bg-bottom.jpg")no-repeat center / cover !important; border-top: 2px solid black; .col-md-4:nth-child(2),.col-sm-6:nth-child(2){text-align: right; margin-top: 25px;}
+  background: #494646; h2{text-shadow:none;} .col-md-4:nth-child(3),.col-sm-6:nth-child(3){text-align: right; .order-call{color: #1dd652; font-size:16px; text-decoration: none;} a{&:hover{color: #FFFFFF;}}} p{color: #fff;}
+  .col-sm-12 p{font-size: 22px;}.two-block ul { text-align: left;}}}
+header .header-content, .buy-me .header-content {
+  margin-bottom: 0;
+}
+.buy-me .header-content{padding: 15px; margin-top: 0;}
+
+@media (max-width: 1199px) {
+.buy-me .border-block input[type="submit"] {
+    font-size: 11px;
+  }
+
+  .buy-me .block {
+    right: 50px;
+    top:185px;
+  }
+}
+
+@media (max-width: 991px) {
+  .buy-me .block {
+    right: 65px;
+    top:430px;
+  }
+}
+
+@media (max-width: 768px) {
+  .buy-me .block {
+    top: 430px;
+  }
+}
+
+@media (max-width: 750px) {
+  .buy-me .block {
+    top: 400px;
+  }
+}
+
+@media (max-width: 680px) {
+  .buy-me .block {
+    top: 350px;
+  }
+
+  .buy-me .block p span {
+    font-size: 18px !important;
+  }
+}
+
+@media (max-width: 620px) {
+  .buy-me .block {
+    top: 270px;
+  }
+}
+
+@media (max-width: 550px) {
+  .buy-me .block {
+    width: auto;
+    right: 15px;
+    top: 220px;
+  }
+}
+
+@media (max-width: 470px) {
+  .buy-me .block {
+    right: 15px;
+    top:170px;
+  }
+
+  .buy-me .image {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .buy-me .block {
+    right: 15px;
+    top:130px;
+  }
+}
+
+@media (max-width: 350px) {
+  .buy-me .image {
+    margin-bottom: 50px;
+  }
+
+  .buy-me .block {
+    right: 15px;
+    top:130px;
+  }
+}
+.buy-me .border-block {
+  margin-top: 30px;
+  width: 100%;
+  float: right;
+  margin-bottom: 10px;
+  border: 2px solid #000;
+  input{border: 1px solid #000;}
+}
+
+@media (max-width: 1000px){
+  .buy-me .header-content .border-block { margin: 15px auto; float: none; width: 100%;}
+  html body .buy-me {
+    .header-content .container{
+      .col-sm-6:nth-child(1) {
+        text-align: center;
+      }
+       .col-sm-6:nth-child(2) {
+        text-align: center
+      }
+      .col-sm-12 {
+        text-align: center
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .buy-me .header-content .border-block {
+    width: 100%
+  }
+}

@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box; }
+
+.main {
+  width: 410px;
+  height: 800px;
+  background: #f4f4f4;
+  border-radius: 52px;
+  box-shadow: 0px 0 10px 1px #E2DDDD;
+  margin: 50px auto;
+  padding: 15px;
+  padding-top: 50px;
+  position: relative; }
+  .main:before {
+    content: "";
+    position: absolute;
+    z-index: -10;
+    border-radius: 52px;
+    -webkit-filter: Blur(1px);
+    display: block;
+    height: 801px;
+    width: 414px;
+    top: 4px;
+    left: -2px;
+    background: linear-gradient(to top, #353535 10%, #8E8B8B, #B5AFAF 100%); }
+
+.inner {
+  width: 100%;
+  height: 591px;
+  background: #444242;
+  margin: 45px auto;
+  border: 2px solid #b3b3b3;
+  position: relative; }
+  .inner:before {
+    content: "";
+    bottom: -86px;
+    left: calc(50% - 35px);
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 3px solid grey;
+    box-shadow: inset 0 0 3px 0 grey; }
+
+.main div {
+  width: 55px;
+  height: 4px;
+  background: #888888;
+  margin: 2px auto;
+  border-radius: 2px;
+  position: relative; }
+  .main div:after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border: 1px solid #bebebe;
+    top: -17px;
+    left: calc(50% - 2px);
+    background: #808080;
+    border-radius: 2px; }
+  .main div:before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: -24px;
+    background: grey;
+    border-radius: 50%;
+    border: 1px solid #aaaaaa;
+    top: calc(50% - 5.5px); }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*# sourceMappingURL=main.css.map */

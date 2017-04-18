@@ -1,0 +1,137 @@
+footer {
+	
+	background: #3c3c3c;
+	font-family: HelveticaNeueCyr-medium;
+	font-size: 25px;
+	color: #fff;
+
+	a {
+		text-decoration: underline;
+		color: #fff;
+
+		&:hover {
+			text-decoration: none;
+			color: #fff;
+		}
+	}
+
+	.politic {
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	.copyright, .politic {
+		overflow: hidden;
+		white-space: nowrap;
+		text-align: center;
+		line-height: 129px;
+	}
+
+	.tac {
+		text-align: center;
+	}
+
+	.copyright {
+		float: left;
+	}
+
+	.footer-content-wrap {
+		padding-top: 35px;
+		padding-bottom: 50px;
+	}
+
+	.contacts {
+		float: right;
+	}
+
+	.contacts p {
+		text-align: right;
+		margin-bottom: 23px;
+	}
+}
+
+@media (max-width: 1500px) {
+	footer .footer-content-wrap {
+		padding-top: 25px;
+		padding-bottom: 35px;
+	}
+}
+
+@media (max-width: 1400px) {
+	footer {
+		font-size: 22px;
+	}
+
+	footer .copyright, footer .politic {
+		line-height: 120px;
+	}
+}
+
+@media (max-width: 1199px) {
+	footer {
+		font-size: 18px;
+	}
+
+	footer .copyright, footer .politic {
+		line-height: 114px;
+	}
+}
+
+@media (max-width: 991px) {
+	footer {
+		font-size: 14px;
+	}
+
+	footer .footer-content-wrap {
+		padding-top: 25px;
+		padding-bottom: 20px;
+	}
+
+	footer .copyright, footer .politic {
+		line-height: 102px;
+	}
+}
+
+@media (max-width: 767px) {
+	footer {
+		font-size: 25px;
+	}
+
+	footer .contacts p {
+		margin-bottom: 10px;
+	}
+
+	footer .copyright {
+		margin-bottom: 15px;
+		white-space: normal;
+		overflow: visible;
+	}
+
+	footer .tac {
+		margin-bottom: 30px;
+	}
+
+	footer .copyright, footer .politic {
+		line-height: 20px;
+	}
+
+	footer .copyright, footer .politic, footer .contacts, footer .contacts p {
+		text-align: center !important;
+		float: none;
+	}
+}
+
+@media (max-width: 480px) {
+	footer {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 400px) {
+	footer {
+		font-size: 16px;
+	}
+}

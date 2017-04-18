@@ -1,0 +1,65 @@
+.why-we {
+
+	border-top: 2px solid #599859;
+	background:transparent url('../img/p4.png') repeat;
+
+
+	h3 {
+		text-align: center;
+		text-transform: uppercase;
+		color: #599859;
+		font-weight: bold;
+		margin-bottom: 50px;
+		margin-top: 60px;
+	}
+
+	h5 {
+		font-weight: bold;
+		font-size: 24px;
+	}
+
+	p {
+		font-size: 18px;
+	}
+
+	h5, p {
+		text-align: center;
+		font-family: 'Open Sans';
+	}
+
+	.content-wrap {
+		margin-bottom: 60px;
+	}
+}
+
+@media (max-width: 991px) {
+	.why-we h3 {
+		font-size: 40px;
+	}
+
+	.why-we h5 {
+		font-size: 32px;
+	}
+
+	.why-we p {
+		font-size: 24px;
+	}
+
+	.why-we .content-wrap {
+		width: 100%;
+	}
+}
+
+@media (max-width: 450px) {
+	.why-we h3 {
+		font-size: 26px;
+	}
+
+	.why-we h5 {
+		font-size: 22px;
+	}
+
+	.why-we p {
+		font-size: 20px;
+	}
+}

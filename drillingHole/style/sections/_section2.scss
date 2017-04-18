@@ -1,0 +1,58 @@
+.why-choose-us {
+
+  box-sizing: border-box;
+
+  font-family: 'Segoe UI';
+  font-weight: 100;
+  text-align: center;
+
+  h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #ac2107;
+    margin-top: 53px;
+    margin-bottom: 50px;
+  }
+
+  h5 {
+    font-size: 29px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .plus-items {
+    margin-top: 50px;
+  }
+
+  .bottom {
+    margin-bottom: 53px;
+  }
+}
+
+@media (max-width: 991px) {
+  .why-choose-us h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #ac2107;
+    margin-top: 53px;
+    margin-bottom: 50px;
+  }
+
+  .why-choose-us h5 {
+    font-size: 34px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .why-choose-us p {
+    font-size: 24px;
+  }
+
+  .why-choose-us .plus-items {
+    width: 100%;
+  }
+}

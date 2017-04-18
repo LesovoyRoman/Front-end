@@ -1,0 +1,29 @@
+@import "../variables";
+
+.how-we-work { padding: 50px 0px;
+  .our-methods { margin-bottom: 60px;
+  .wrap-img-how-work {width: 100%; margin-bottom:15px; position: relative;
+    img{display: block; margin: 0 auto;}
+    &:after{content: ""; position: absolute; width: 30px; height: 2px; background: $main-background-red; right: -10%; top:calc(50% - 13px); transform: rotate(45deg);}
+    &:before{content: ""; position: absolute; width: 30px; height: 2px; background: $main-background-red; right: -10%; top:calc(50% + 8px); transform: rotate(-45deg)}}
+  .description {font-size: 25px; text-align: center; font-weight: 300;}
+  }
+  .our-methods:last-child{.wrap-img-how-work{&:before, &:after{display: none;}}}
+}
+a.get-consultation{width: 420px; padding: 17px; display: block; border: 3px solid #e0dede; border-radius: 3px; font-size: 18.75px;
+  color: #fff; background: $main-background-red; text-decoration: none; margin: 0 auto; text-align: center; text-transform: uppercase;
+  &:hover {background: $hover-button;} }
+
+@media screen and (max-width: 900px){
+   a.get-consultation {width: 75%;}
+}
+@media screen and (max-width: 600px){
+   a.get-consultation {width: 85%;}
+  .how-we-work {padding: 30px 0px}
+}
+@media (max-width: 1001px) {
+  .our-methods:nth-child(2), .our-methods:nth-child(4) { .wrap-img-how-work{&:before, &:after{display: none;}}}
+}
+@media (max-width: 780px) {
+  .our-methods { .wrap-img-how-work{&:before, &:after{display: none;}}}
+}

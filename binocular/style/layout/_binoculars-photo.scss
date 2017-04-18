@@ -1,0 +1,106 @@
+.binoculars-photo {
+
+	border-top: 2px solid #599859;
+	.content-wrap:hover{box-shadow: 0 0 30px 5px #3C6114;}
+
+	position: relative;
+
+	.wrap-img-slide-binoculus-1 {
+		background: url("../img/tovar70x70-2.jpg") center no-repeat;
+	}
+	.wrap-img-slide-binoculus-2 {
+		background: url("../img/galileo70x70.jpg") center no-repeat;
+	}
+	.wrap-img-slide-binoculus-3 {
+		background: url("../img/img_5889.jpg") center no-repeat;
+	}
+	.wrap-img-slide-binoculus-4 {
+		background: url("../img/img4.jpg") center no-repeat;
+	}
+	.wrap-img-slide-binoculus-5 {
+		background: url("../img/img5.jpg") center no-repeat;
+	}
+	.wrap-img-slide-binoculus-6 {
+		background: url("../img/img6.jpg") center no-repeat;
+	}
+	.wrap-img-slide-binoculus-1, .wrap-img-slide-binoculus-2, .wrap-img-slide-binoculus-3, .wrap-img-slide-binoculus-4, .wrap-img-slide-binoculus-5, .wrap-img-slide-binoculus-6 {
+		height: 440px;
+		background-size: contain;
+	}
+
+	background: url('../img/p6.png') repeat;
+
+	h3 {
+		text-align: center;
+		text-transform: uppercase;
+		color: #599859;
+		font-weight: bold;
+		margin-bottom: 30px;
+		margin-top: 60px;
+	}
+
+	.content-wrap {
+		width: 250px;
+		height: 250px;
+		overflow: hidden;
+		background: #fff;
+		display: block;
+		border: 1px solid rgba(89, 152, 89, 0.6);
+		border-radius: 3px;
+		margin: 50px auto;
+		cursor: pointer;
+	}
+
+	.down-img {
+		margin-bottom: 50px;
+	}
+
+	.content-wrap img {
+		width: 100%;
+		cursor: pointer;
+	}
+
+	.img-1 {
+		padding-top: 50px;
+	}
+
+	.img-3 {
+		padding-top: 40px;
+	}
+
+	.img-4 {
+		padding-top: 70px;
+	}
+}
+
+@media (max-width: 991px) {
+	.binoculars-photo .content-wrap {
+		width: 100%;
+		height: 100%;
+	}
+
+	.binoculars-photo .img-1 {
+		padding-bottom: 30px;
+	}
+
+	.binoculars-photo .img-3 {
+		padding-bottom: 30px;
+	}
+
+	.binoculars-photo .img-4 {
+		padding-bottom: 50px;
+	}
+}
+
+@media (max-width: 768px) {
+	.binoculars-photo .content-wrap {
+		width: 80%;
+		height: 80%;
+	}
+}
+
+@media (max-width: 450px) {
+	.binoculars-photo h3 {
+		font-size: 26px;
+	}
+}

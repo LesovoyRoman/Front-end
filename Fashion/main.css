@@ -1,0 +1,293 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h4, .sign-up, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: middle; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1 {
+  font-family: 'Arima Madurai', cursive;
+  font-size: 34px;
+  color: white; }
+
+h2, h4, .sign-up {
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 44px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 8%; }
+
+h4 {
+  font-size: 26px;
+  margin-top: 4%;
+  text-transform: none; }
+
+h2.recently-items, h4.recently-items, .recently-items.sign-up {
+  font-size: 32px;
+  margin: 3% 0 3% 0;
+  color: #898989;
+  text-transform: none; }
+
+h5.free-app {
+  font-size: 24px;
+  display: inline-block;
+  color: white;
+  font-family: 'Open-Sans', sans-serif; }
+  h5.free-app pre {
+    color: #cccccc;
+    display: inline-block; }
+
+.sign-up {
+  font-size: 14px;
+  text-transform: lowercase; }
+
+.download:hover h5.free-app {
+  color: #ff6c14;
+  transition: 500ms; }
+
+.download:hover h5.free-app pre {
+  color: #ad4100;
+  transition: 500ms; }
+
+.head {
+  width: 100%;
+  height: 450px;
+  background-image: url("images/main-bg.png");
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 5% 8%;
+  box-sizing: border-box;
+  border-bottom: 2px solid #ff6c14; }
+
+.sign-up {
+  position: absolute;
+  bottom: -25px;
+  width: 30%;
+  height: 50px;
+  left: 35%;
+  border-radius: 25px;
+  background-color: #ff6c14;
+  border: none;
+  padding: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 0 8px 1px black;
+  outline: none;
+  margin-top: 0;
+  transition: 500ms;
+  cursor: pointer; }
+
+.sign-up:hover {
+  background-color: #211f20;
+  color: #ff6c14; }
+
+.content {
+  padding: 4%;
+  text-align: center;
+  transition: all .4s ease;
+  box-shadow: inset 0 0 30px 0; }
+  .content:hover {
+    box-shadow: inset 0 0 60px 0; }
+
+.col-4 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3%; }
+
+.col-2 {
+  width: 50%;
+  display: flex;
+  justify-content: space-around; }
+
+.element {
+  width: 45%;
+  height: 300px;
+  background-color: #898989;
+  background-image: url("images/example.png");
+  background-position: center;
+  position: relative;
+  background-size: cover;
+  padding: 25px;
+  box-sizing: border-box; }
+  .element a {
+    display: block;
+    width: 100%;
+    height: 100%; }
+  .element .part-of-Elem {
+    position: absolute;
+    display: none;
+    bottom: 25px; }
+    .element .part-of-Elem p {
+      margin-bottom: 20px;
+      color: white;
+      font-family: 'Arima Madurai', cursive; }
+    .element .part-of-Elem .cost {
+      width: 90px;
+      height: 30px;
+      line-height: 30px;
+      border: 2px solid #ff6c14;
+      border-radius: 25px;
+      color: #ff6c14;
+      position: relative; }
+      .element .part-of-Elem .cost .prev-cost {
+        position: absolute;
+        text-decoration: line-through;
+        color: #898989;
+        right: -60px;
+        top: 1px;
+        font-weight: bold; }
+
+.element:hover {
+  box-shadow: inset 0 0 50px 10px;
+  transition: 600ms; }
+
+.part-of-Elem .cost:hover {
+  background-color: #ff6c14;
+  color: black;
+  font-weight: bold; }
+
+.download {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #ff6c14;
+  padding: 30px 4%;
+  line-height: 60px; }
+  .download .arrow {
+    width: 40px;
+    height: 40px;
+    transition: 800ms;
+    background-image: url("images/sparrow.png");
+    border-radius: 50%;
+    margin-left: 10px;
+    display: inline-block;
+    transform: rotate(-45deg); }
+    .download .arrow a {
+      display: block;
+      width: 100%;
+      height: 100%; }
+
+.download:hover {
+  background-color: #3d3d3d;
+  transition: 1000ms; }
+
+.inform-nets {
+  height: 120px;
+  width: 100%;
+  background-color: #211f20;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-around;
+  padding: 10px 4%; }
+
+.inform {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 35%; }
+  .inform a {
+    text-decoration: none;
+    color: #898989; }
+
+.nets {
+  display: flex;
+  justify-content: space-around;
+  width: 25%;
+  align-items: center; }
+
+.social-nets {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: url("images/links.png"); }
+
+.social-nets:nth-child(2) {
+  background-position: -68px 0px; }
+
+.social-nets:nth-child(3) {
+  background-position: -136px 0px; }
+
+.social-nets:nth-child(4) {
+  background-position: -204px 0px; }
+
+@media screen and (max-width: 900px) {
+  .nets {
+    flex-direction: column; }
+
+  .download {
+    height: 170px; }
+    .download pre {
+      display: block !important; }
+
+  .inform-nets {
+    height: 200px; }
+
+  .inform {
+    flex-direction: column; }
+
+  .nets {
+    flex-direction: column; }
+
+  .col-4 {
+    flex-direction: column; }
+
+  .col-2 {
+    width: 100%; }
+
+  .element {
+    width: 45%;
+    margin-bottom: 20px; } }
+@media screen and (max-width: 500px) {
+  .col-2 {
+    flex-direction: column; }
+
+  .element {
+    width: 75%;
+    margin: 15px auto; } }
+@media screen and (max-width: 400px) {
+  .element {
+    width: 85%;
+    margin: 10px auto; } }
+@media screen and (max-width: 365px) {
+  h5.free-app {
+    font-size: 20px; } }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,32 @@
+.owl-nav { display: block !important;}
+.owl-prev,  .owl-next{
+  background: transparent !important;
+  top: 0;
+  left: -20px;
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  &:before{
+    position: absolute;
+    content: "";
+    top:35%;
+    left:0px;
+    width: 40px;
+    height: 40px;
+    background: url("../img/strelka-left.png")no-repeat center;
+  }
+}
+ .owl-next{
+  left: calc(69% + 20px);
+   &:before{
+     left:calc(100% - 40px);
+     background: url("../img/strelka-right.png")no-repeat center;
+   }
+}
+
+ .reviews .owl-nav {display: none !important;}
+ .feedbacks .owl-nav {display: none !important;}
+ @media (max-width: 600px) {
+   .owl-nav {display: none !important;}
+ }
+

@@ -1,0 +1,38 @@
+@import "../variables";
+
+a.get-consultation {
+  width: 420px;
+  padding: 17px;
+  display: block;
+  border: 3px solid #e0dede;
+  border-radius: 3px;
+  font-size: 18.75px;
+  color: #fff;
+  background: $main-background-red;
+  text-decoration: none;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+
+  &:hover {
+    background: $hover-button;
+  }
+}
+
+h4 {
+  font-family: 'Segoe UI';
+  font-weight: 100;
+  color: $main-background-red;
+  font-size: 29px;
+  width: 100%;
+  margin-bottom: 43px;
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  a.get-consultation {width: 75%;}
+}
+
+@media screen and (max-width: 600px) {
+  a.get-consultation {width: 85%;}
+}

@@ -1,0 +1,288 @@
+.calc {
+
+  background: url('images/ask-bg.jpg') no-repeat;
+  background-size: contain;
+
+  .asking {
+    padding-top: 105px;
+    padding-bottom: 32px;
+  }
+
+  p {
+    margin-bottom: 84px;
+  }
+
+  h4 {
+    font-family: 'Segoe UI';
+    font-weight: 100;
+    color: #000;
+    font-size: 26.8px;
+    width: 100%;
+    margin-bottom: 18px;
+    text-align: center;
+  }
+
+  .post-ask {
+    font-family: 'Segoe UI';
+    font-weight: 100;
+    color: #fff;
+    font-size: 33px;
+  }
+
+  .application-wrap {
+    border: 1px solid #ac2107;
+    border-radius: 2px;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-top: 9px;
+    width: 358px;
+    padding-bottom: 16.5px;
+    margin-top: 13px;
+    margin-left: 160px;
+    margin-bottom: 20px;
+    background-color: transparent;
+  }
+
+  .text-data {
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    color: #000;
+    font-weight: 100;
+    border: 1px solid #ac2107;
+    border-radius: 2px;
+    background-color: transparent;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 13px;
+    display: block;
+  }
+
+  input.text-data:focus {
+    outline: none;
+  }
+
+  .button {
+    text-transform: uppercase;
+    background: #ac2107;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: 'Segoe UI';
+    font-weight: 100;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 2px;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+
+    &:hover {
+      background: #7e0e0e;
+    }
+  }
+}
+
+@media (max-width: 1860px) {
+  .calc h4 {
+    font-size: 22px;
+    width: 100%;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+
+  .calc .application-wrap {
+    border-radius: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    width: 350px;
+    padding-bottom: 12px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    background-color: transparent;
+  }
+
+  .calc .text-data {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  .calc .button {
+    text-transform: uppercase;
+    background: #ac2107;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: 'Segoe UI';
+    font-weight: 100;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 2px;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1500px) {
+  .calc .application-wrap {
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+
+  .calc .asking {
+    padding-top: 50px;
+    padding-bottom: 32px;
+  }
+
+  .calc p {
+    margin-bottom: 40px;
+  }
+
+  .calc .post-ask {
+    font-family: 'Segoe UI';
+    font-weight: 100;
+    color: #fff;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1275px) {
+  .calc h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .calc .application-wrap {
+    border: 1px solid #ac2107;
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    margin-top: 10px;
+    width: 250px;
+    padding-bottom: 13px;
+    background-color: transparent;
+  }
+
+  .calc .text-data {
+    font-family: 'Segoe UI';
+    font-size: 12px;
+    color: #000;
+    font-weight: 100;
+    border: 1px solid #ac2107;
+    border-radius: 2px;
+    background-color: transparent;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+  }
+
+  .calc .button {
+    text-transform: uppercase;
+    background: #ac2107;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: 'Segoe UI';
+    font-weight: 100;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 2px;
+    font-size: 12px;
+    display: block;
+    width: 100%;
+  }
+
+  .calc .asking {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .calc p {
+    margin-bottom: 20px;
+  }
+
+  .calc .post-ask {
+    font-family: 'Segoe UI';
+    font-weight: 100;
+    color: #fff;
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .calc .text-data {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 1140px) {
+  .calc .asking, .calc .calculating {
+    width: 100%;
+  }
+
+  .calc {
+    background: none;
+  }
+
+  .calc p {
+    text-align: center;
+  }
+
+  .calc .asking {
+    background: url('images/calc-bg-left.png') no-repeat center / cover;
+  }
+
+  .calc .calculating {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: url('images/calc-bg-right.png') no-repeat center / cover;
+  }
+
+  .calc .container {
+    width: 100% !important;
+    padding: 0;
+  }
+
+  .calc .application-wrap {
+    margin: 0 auto;
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    width: 300px;
+    padding-bottom: 5px;
+  }
+
+  .calc .text-data {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 3px;
+  }
+
+  .calc .button {
+    margin-bottom: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+  }
+}
+
+@media (min-width: 240px) and (max-width: 319px) {
+  .calc .application-wrap {
+    width: 220px;
+  }
+}

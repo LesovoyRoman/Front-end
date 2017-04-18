@@ -1,0 +1,20 @@
+@import "variables";
+@import "content";
+@import "head";
+
+.content-bottom {width: 100%;  padding: 8% 12%; display: flex; justify-content: space-between;
+  border-top:2px solid white; background-color: #1f0027; border-bottom: 2px solid white;
+  .advantages-1-2, .advantages-3-4{display: flex; width: 50%;  justify-content: space-between;
+    .adv-1,.adv-2,.adv-3,.adv-4 {width: 50%; text-align: justify;
+      display: flex !important; justify-content: flex-start; flex-direction: column; margin: 5px 15px 5px 15px;
+      .adv-head{@extend .low-description; text-transform: uppercase; margin-bottom: 20px; position: relative;
+        color: #930dc3; font-weight: 600; letter-spacing: 3px; text-align: center; margin-top: 60px;
+        &:before{content: ''; position: absolute; width: 47px; height: 47px; top: -60px; left: calc(50% - 23.5px);
+          background:url("images/spread-icons-adv.png") no-repeat; }}
+      .adv-description{line-height: 25px;  color:darken(#46849c, 10); font-family: 'Open Sans', sans-serif;
+        font-size: 14px;}}}}
+
+.adv-1{.adv-head{&:before{background-position: 5px 5px !important;}}}
+.adv-2{.adv-head{&:before{background-position: -235px 5px !important;}}}
+.adv-3{.adv-head{&:before{background-position: -475px 5px !important;}}}
+.adv-4{.adv-head{&:before{background-position: -715px 5px !important;}}}

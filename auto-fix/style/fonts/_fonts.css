@@ -1,0 +1,19 @@
+@font-face {
+    font-family: HelveticaNeueCyr-bold;
+
+    src: url('helveticaneuecyr-bold.otf');
+
+    font-weight: bold;
+}
+
+@font-face {
+  	font-family: HelveticaNeueCyr-medium;
+
+  	src: local("helveticaneuecyr-medium"), url('helveticaneuecyr-medium.otf');
+}
+
+@font-face {
+  	font-family: HelveticaNeueCyr-light;
+
+  	src: local("helveticaneuecyr-light"), url('helveticaneuecyr-light.otf');
+}

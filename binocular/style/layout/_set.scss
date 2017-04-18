@@ -1,0 +1,29 @@
+@import "../base/variables";
+
+.set { h3 {padding-bottom: 50px;} .col-md-6{text-align: center;} .wrap-img{img{max-width: 100%; height: 300px;}} padding-bottom: 50px; border-top: 2px solid #599859; background: #d4dce4;
+   ul { text-align:left; list-style:none;
+                            li{position: relative; font-size: 18px;  font-weight: bold; margin: 8px;
+  &:before{content: ""; position: absolute; width: 28px; height: 28px; left: -30px; top:-3px; background: url("../img/scheck121.png");}} .signed{color:red; font-size: 22px}}}
+
+@media (max-width: 900px) {
+  .set .order-me {width: 100%; max-width: 300px;}
+}
+
+
+.order-me{display: block; margin: 20px auto; padding: 10px 15px; background: #599859; color:white;
+  font-size: 18px;  width: 300px; border: 1px solid grey; border-radius: 5px; &:hover{text-decoration: none; color: #fff; background: green;}
+  text-align: center}
+
+.set form button {width: 65%;}
+@media (max-width: 750px) {
+  .set .container form{h3{font-size: 32px;}}
+}
+@media (max-width: 520px) {
+  .border-block input{font-size: 14px;}
+}
+@media (max-width: 380px) {
+  .container .row .col-md-3 .border-block input{font-size: 11px;}
+}
+@media (max-width: 350px) {
+  .container .row .col-md-3 .border-block input{font-size: 10px;}
+}

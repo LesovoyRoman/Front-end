@@ -1,0 +1,11 @@
+@import "../base/variables";
+
+html body .feedbacks  {img{max-width: 400px;} padding-bottom: 50px; border-top: 2px solid #599859;  }
+html body .feedbacks  .application-wrap .modal-feedback {
+  max-width: 600px;
+  width: 100%;
+  left: calc(50% - 300px);
+  margin-left: 0;
+}
+
+

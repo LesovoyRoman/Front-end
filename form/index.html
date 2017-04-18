@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+    <title>Document</title>
+
+    <script>
+        $(function(){
+            $('.enter').click(function(){
+                $(".send-info").fadeIn(500);
+                $(".analysis").css({
+                    "height": "850px",
+
+                });
+            });
+
+            $(".exit").click(function () {
+                return false;
+
+            });
+            $(".exit").click(function () {
+                $(".send-info").fadeOut(500);
+                setTimeout(function () {
+                    $(".analysis").css({
+                        "height": "260px",
+                        "padding": "75px 15px"
+                    });
+                }, 600)
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <div class="analysis">
+        <h2 class="get-free">Get Your Free Facebook Analysis Now</h2>
+        <p class="details">Enter your details below</p>
+        <button class="enter"></button>
+        <div class="send-info">
+            <form action="">
+                <p class="explain">Sit down with our experts to receive a free customized marketing plan for your business
+                + Learn How To Use Google and Facebook to get 5000% ROI or more</p>
+                <input type="text" placeholder="Your Name">
+                <input type="tel" placeholder="Contact Number">
+                <input type="text" placeholder="Company Name">
+                <button type="submit" class="sub">submit now</button>
+
+            </form>
+            <button class="exit"></button>
+        </div>
+    </div>
+    <div class="subscribe">
+        <h2 class="get-in-touch">Get in touch</h2>
+        <div class="Our-links">
+            <a class="links-to-us" href="#"></a>
+            <a class="links-to-us" href="#"></a>
+            <a class="links-to-us" href="#"></a>
+            <a class="links-to-us" href="#"></a>
+        </div>
+        <form action="">
+            <input type="email" class="search-line" placeholder="Email Address">
+            <button type="submit" class="button-subscribe">Subscribe</button>
+        </form>
+    </div>
+    <footer class="all-rigth"><p class="rights-reserved">Cssauthor.com &#174 2014 All Rights Reserved</p></footer>
+</body>
+</html>

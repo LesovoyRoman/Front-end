@@ -1,0 +1,42 @@
+@import "../style/variables";.head {width: 100%; height: 450px; background-image: url("images/main-bg.png"); position: relative;
+  background-position: center; background-size: cover; text-align: center; padding: 5% 8%;
+  box-sizing: border-box; border-bottom: 2px solid $bg-orange;}
+
+.sign-up {position: absolute; bottom: -25px; width: 30%; height: 50px; left:35%;
+  border-radius: 25px; background-color: $bg-orange; border: none; padding: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 0 8px 1px black; outline: none; margin-top: 0; transition: 500ms; cursor: pointer;}
+.sign-up:hover {background-color: #211f20; color: $bg-orange;}
+.content {padding: 4%; text-align: center; transition: all .4s ease; box-shadow: inset 0 0 30px 0;&:hover{box-shadow: inset 0 0 60px 0;}}
+.col-4 {display: flex; justify-content: space-between; margin-bottom: 3%;}
+.col-2 {width: 50%; display: flex; justify-content: space-around;}
+.element {width: 45%; height: 300px; background-color: $bg-grey;
+  background-image: url("images/example.png"); background-position: center; position: relative;
+  background-size: cover; padding: 25px; box-sizing: border-box; a{display: block; width: 100%; height: 100%;}
+  .part-of-Elem{position: absolute; display: none; bottom: 25px; p{margin-bottom: 20px; color: white; font-family: 'Arima Madurai', cursive; }
+    .cost{width: 90px; height: 30px;
+    line-height: 30px; border: 2px solid $bg-orange; border-radius: 25px; color: $bg-orange; position: relative; .prev-cost{
+    position: absolute; text-decoration: line-through; color: $bg-grey; right: -60px; top:1px; font-weight: bold;}}}}
+.element:hover {box-shadow: inset 0 0 50px 10px; transition: 600ms;}
+.part-of-Elem .cost:hover {background-color: $bg-orange; color: black; font-weight: bold;}
+.download {width: 100%; height: 120px; text-align: center; box-sizing: border-box;
+  background-color: $bg-orange; padding: 30px 4%; line-height: 60px; .arrow {width: 40px; height: 40px; transition: 800ms;
+  background-image: url("images/sparrow.png"); border-radius: 50%;
+  margin-left: 10px; display: inline-block; transform: rotate(-45deg); a{display: block;  width: 100%; height: 100%;}}}
+.download:hover {background-color: darken($bg-grey, 30); transition: 1000ms;}
+.inform-nets {height: 120px; width: 100%; background-color: $bg-darkGrey; display: flex;
+  box-sizing:border-box; justify-content: space-around; padding: 10px 4%;}
+.inform {display: flex; justify-content: space-around;
+  align-items: center;  width: 35%;  a{text-decoration: none; color: $bg-grey;}}
+.nets {display: flex; justify-content: space-around; width: 25%; align-items: center;}
+.social-nets {width: 40px; height: 40px;  border-radius: 50%; background-image: url("images/links.png");}
+.social-nets:nth-child(2){background-position: -68px 0px;} .social-nets:nth-child(3){background-position: -136px 0px;}
+.social-nets:nth-child(4){background-position: -204px 0px;}
+
+@media  screen and (max-width: 900px) {.nets{flex-direction: column;} .download{height: 170px; pre{display: block !important;}}
+  .inform-nets{height: 200px; } .inform{flex-direction: column;} .nets{flex-direction: column;} .col-4{flex-direction: column;}
+  .col-2 {width: 100%;} .element {width: 45%; margin-bottom: 20px;};}
+
+@media  screen and (max-width: 500px) {.col-2 {flex-direction: column;} .element {width: 75%; margin: 15px auto;} ;}
+@media  screen and (max-width: 400px) {.element {width: 85%; margin: 10px auto;};}
+@media screen and (max-width: 365px) {h5.free-app {font-size: 20px;};}

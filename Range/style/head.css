@@ -1,0 +1,80 @@
+body {
+  background-color: rgba(223, 208, 250, 0.65); }
+
+header {
+  background: url("images/bg-top.png") no-repeat center center;
+  width: 100%;
+  text-align: center;
+  padding: 8% 12%;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: inset -483px -221px 300px 1px rgba(91, 34, 111, 0.05), inset -100px -1000px 300px 3px rgba(129, 45, 165, 0.4), inset 200px 400px 300px 3px rgba(255, 255, 255, 0.1); }
+
+.head, .description, .low-description {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 44px;
+  color: #521a66;
+  margin-bottom: 50px; }
+
+.description, .low-description {
+  font-size: 14px; }
+
+.play {
+  border-radius: 50%;
+  border: 10px solid white;
+  box-shadow: 0 0 5px 3px #b400ff;
+  transition: all 0.5s ease;
+  background-color: white;
+  cursor: pointer;
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  margin-top: 625px;
+  position: relative;
+  outline: none; }
+  .play:before {
+    border: 10px solid transparent;
+    border-left: 15px solid #521a66;
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 10px; }
+  .play:hover {
+    background-color: transparent;
+    box-shadow: 0 0 15px 5px #c00eff; }
+    .play:hover:before {
+      border: 7px solid transparent;
+      border-left: 10px solid white;
+      top: 8px;
+      left: 11.5px;
+      transition: all 0.1s ease; }
+
+.low-h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  color: white;
+  margin: 45px auto; }
+
+.low-description {
+  color: #a87bb7; }
+
+button.get-start {
+  outline: none;
+  width: 200px;
+  height: 60px;
+  border: 5px solid white;
+  background-color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: #521a66;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.5s ease; }
+  button.get-start:hover {
+    background-color: #521a66;
+    border: 5px solid #7cdcdc;
+    color: white; }
+
+/*# sourceMappingURL=head.css.map */

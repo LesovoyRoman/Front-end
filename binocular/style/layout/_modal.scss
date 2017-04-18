@@ -1,0 +1,188 @@
+
+  .left-close-pall, .right-close-pall {
+    width: 200%;
+    left:-200%;
+    top:-50%;
+    height: 300%;
+    position: absolute;
+    cursor: pointer;
+    &:hover{background: linear-gradient(to right, rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6))}
+  }
+  .right-close-pall {left: 100%}
+
+
+  .text-data {
+    font-family: 'Segoe UI';
+    font-size: 29px;
+    color: red;
+    font-weight: 100;
+    border: 1px solid #a7a7a7;
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .modal, .modal-conf, .modal-feedback, .modal-order{
+    .container {
+      width: 100%;
+    }
+  }
+
+
+
+
+  .modal-pall, .modal-pall-conf, .modal-pall-conf-binoculus, .modal-pall-feedback, .modal-pall-order{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 31, 30, 0.88);
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    display: none;
+  }
+
+  .modal-pall-conf-binoculus{ .modal-header{margin-left: 20px; margin-top: 20px;}}
+  .modal, .modal-conf, .modal-conf-binoculus, .modal-feedback, .modal-order{
+    display: none;
+    width: 600px;
+    position: fixed;
+    margin-left: -300px;
+    top: 50%;
+    left: 50%;
+    height: 550px;
+    margin-top: -250px;
+    background: #fafafa;
+    border-radius: 7px;
+  }
+  .modal-conf, .modal-feedback, .modal-order,.modal-conf-binoculus{width: 50%;  left:25%; margin-left: 0;}
+  .modal-header {
+    position: relative;
+    height: 30px;
+    border: none;
+  }
+  .modal-body {
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    height: 95%;
+
+
+    .wrap-img {
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+      padding-bottom: 15px;
+    }
+    p {
+      text-align: left;
+    }
+  }
+  .modal h2 {
+    margin-top: 0;
+    padding-bottom: 30px;
+  }
+  .modal .close-modal, .modal-conf .close-modal, .modal-feedback .close-modal, .modal-order .close-modal {
+    position: absolute;
+    display: block;
+    height: 25px;
+    width: 25px;
+    right: 20px;
+    top: 10px;
+    opacity: .6;
+    transition: all .5s ease;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  .modal .close-modal:before,
+  .modal .close-modal:after {
+    top: -10px;
+    left: 9px;
+  }
+  .modal .close-modal:before {
+    transform: rotate(45deg);
+  }
+  .modal .close-modal:after {
+    transform: rotate(-45deg);
+  }
+  .visible {
+    visibility: visible;
+  }
+
+  .close-modal:before {
+    content: '';
+    display: block;
+    height: 25px;
+    width: 4px;
+    background: #3c3c3c;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0px;
+    left: 8px;
+    border-radius: 10px;
+  }
+  .close-modal:after {
+    content: '';
+    display: block;
+    height: 25px;
+    width: 4px;
+    background: #3c3c3c;
+    position: absolute;
+    transform: rotate(-45deg);
+    top: 0px;
+    left: 8px;
+    border-radius: 10px;
+    transition: all .5s ease;
+  }
+
+  .modal, .modal-conf , .modal-feedback, .modal-order{
+    input {
+      margin-bottom: 20px;
+      padding: 5px 15px;
+      font-size: 25px;
+    }
+  }
+
+  .application-wrap {
+    border: 1px solid #ac2107;
+    border-radius: 2px;
+    padding: 42px 38px;
+    margin-bottom: 60px;
+  }
+
+  @media (max-width: 630px) {
+    .modal, .modal-conf, .modal-feedback, .modal-order{
+      width: 320px;
+      margin-left: -160px;
+      h2 {
+        font-size: 30px;
+      }
+      input {
+        padding: 10px;
+      }
+      .submit {
+        font-size: 22px;
+        width: 100%;
+      }
+    }
+  }
+  .modal-order { height: 360px;}
+
+  .modal-order{
+    width: 100%;
+    left: calc(50% - 250px);
+    max-width: 500px;
+    margin-left: 0;
+  }
+  @media (max-width: 500px) {
+    .modal-order{left: 0;}
+    html body .feedbacks  .application-wrap .modal-feedback { left: 0;}
+  }
+
+  @media (max-width: 670px) {
+    html body .modal-feedback .container .modal-body form {input, textarea{font-size: 18px; margin: 5px auto;}}
+  }
+  @media (max-width: 500px) {
+    html body .modal-feedback .container .modal-body form {input, textarea{font-size: 16px;}}
+  }

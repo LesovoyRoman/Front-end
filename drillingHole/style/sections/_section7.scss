@@ -1,0 +1,18 @@
+@import "../variables";
+
+.brilliant-drilling {padding: 50px 0px;
+  .header-paragraph {display: block; margin: 50px auto; text-align: center; font-weight: 400; font-size: 29px;}
+  ul {margin-bottom: 60px; li {margin: 10px 0 0 60px;}}
+}
+
+@media (max-width: 800px) {
+  .brilliant-drilling {ul li {margin-left: 30px;}}
+}
+@media (max-width: 700px) {
+  .brilliant-drilling .container p, span {font-size: 20px;}
+  .brilliant-drilling .container .header-paragraph {font-size: 25px;}
+}
+@media (max-width: 600px) {
+  .brilliant-drilling {padding: 30px 0px; ul {margin-bottom: 30px;}}
+  .brilliant-drilling .header-paragraph {margin: 35px auto}
+}

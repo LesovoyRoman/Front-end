@@ -1,0 +1,9 @@
+.features img, .feedbacks img, .payment img, .set img {display: block; margin: 0 auto;}
+
+p, a, span {font-family: "Open Sans";}
+form{max-width: 100%; margin: auto;}
+* {transition: 0.4s;}
+
+@media (max-width: 800px){
+  input, textarea{font-size: 20px; padding: 5px 10px;}
+}

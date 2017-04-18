@@ -1,0 +1,18 @@
+@import "../variables";
+
+.feedback {background: url("images/bg-section-feedback.png")no-repeat center center; background-size: cover; padding: 50px 16%;
+  .left-feedback {margin-bottom: 10px; background: #fff; padding: 15px; display:
+          flex; justify-content: space-around; align-items: center; border-radius: 3px; border: 1px solid $main-background-red;
+    p {margin: 20px 15px; max-width: 75%;}}
+    a.get-consultation {margin-top: 35px;}
+}
+
+@media (max-width: 1025px) {
+  .feedback .left-feedback {flex-direction:column;  p {font-size: 20px; text-align: justify; margin: 20px 10px; max-width: 100%;}}
+}
+@media (max-width: 600px) {
+  .feedback {padding: 30px 10%};
+}
+@media (max-width: 500px) {
+  .feedback .left-feedback {  p {font-size: 16px; margin: 15px 0px; text-align: left;}}
+}

@@ -1,0 +1,11 @@
+@import "variables";
+@import "frame";
+@import "head";
+
+content{ width: 100%; padding: 8% 12%; display: flex; justify-content: space-between;
+  background-color:rgb(31, 0, 39); .separation{width: 1px; height: 75%; background-color: #310f5f;}}
+.first-column, .second-column {display: flex; flex-direction: column; width: 45%; .get-start{margin-top: -10px;}
+  justify-content: space-between; .nameOf-block{text-transform: uppercase; @extend .low-description; margin-bottom: 25px !important;
+  color: #930dc3 !important; font-weight: 600; letter-spacing: 3px;}
+  .descriptionOf-block{line-height: 25px;  color:#46849c; font-family: 'Open Sans', sans-serif;
+    font-size: 14px; margin-bottom: 50px;}}

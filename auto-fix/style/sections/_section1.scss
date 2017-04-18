@@ -1,0 +1,134 @@
+@import "../variables";
+@import "../fonts/_fonts.css";
+
+ .top-fix{background: url("images/section1/bg-top.png")no-repeat center/cover; color: white;
+  .owl-carousel{width:600px; position:relative;
+   img{width: 600px;} margin: 25px 0;
+   .owl-nav {display: block; position: absolute; top:41%; width: 100%;
+    .owl-prev{position: absolute; left: -55px; width: 43px; height: 47px; background: url("images/section1/arrow-left.png")no-repeat center;}
+    .owl-next{position: absolute; right: -55px; width: 43px; height: 47px; background: url("images/section1/arrow-right.png")no-repeat center;}}
+  .owl-stage-outer{border: 3px solid white}}
+ .top-head-panel {.col-md-6{font-size: 25px; a{color: white;}} display: table; width: 100%; margin: 20px auto 50px auto;}
+h2.main-header {font-family: HelveticaNeueCyr-bold; font-weight: normal; font-size: 50px; text-align: center; margin: 100px auto 50px auto;}}
+.price-time {padding: 30px; margin:25px 0; width: 100%; border: 2px solid #e59714; max-width: 680px; float: right;
+ h4{font-family: HelveticaNeueCyr-medium; font-size: 42px; color: #ffb21c; text-align: center; margin-bottom: 32px;}
+ h5{font-size: 35px; font-family: HelveticaNeueCyr-light; margin-bottom: 30px; color: white; text-align: center; span{font-family: HelveticaNeueCyr-medium; font-size: 40px; color: #ffb21c}}
+ .container{padding: 0; width: 100%; margin: 30px auto 15px auto;
+  li{font-family: HelveticaNeueCyr-light; font-size: 18px; text-align: center; position: relative;
+   &:after{content: ""; position: absolute; width: 8px; height: 8px; border-radius: 50%; background: #FFB21C; right: -7%; top:40%;}}
+ }
+.container li:last-child{&:after{display: none;}}
+ .container li:nth-child(3){&:after{right: 3%;}}}
+
+@media (max-width: 1450px) {
+.top-fix {
+ .col-md-6 {
+ .owl-carousel {
+  width: 550px;
+  img {
+   width: 550px;
+  }}}}}
+
+
+@media (max-width: 1340px) {
+  .top-fix {
+   .col-md-6 {
+    .owl-carousel {
+     width: 500px;
+     img {
+      width: 500px;
+     }}}}
+}
+@media (max-width: 1260px) {
+ .top-fix {.col-md-6:nth-child(4){float: none ;}
+ .col-md-6:nth-child(3), .col-md-6:nth-child(4){float: none; margin: 25px auto; text-align: center; width: 100%;}
+ .owl-carousel{margin: 25px auto;}
+ .price-time{float: none; margin: 50px auto 25px auto;}
+
+
+}
+
+@media (max-width: 1000px) {
+  .top-fix .container .price-time .container{ li:after{display: none;}}
+}
+
+@media (max-width: 760px) {
+  .top-fix .container .owl-carousel{width:500px; img{width: 500px;}
+  }
+  .top-fix .container .main-header{font-size: 42px; margin-top: 75px;}
+
+ .top-fix .container .top-head-panel {.col-sm-6{text-align: center;}}
+}
+
+@media (max-width: 650px) {
+  .top-fix .container .owl-carousel {width:400px; img{width: 400px;} }
+  .top-fix .container .top-head-panel  .top-head {text-align: center; font-size: 22px;}
+  .top-fix .container .top-head-panel .text-right .place-contacts {margin: 10px auto; font-size: 18px;}
+   .top-fix .top-head-panel .col-md-6 .order-call {font-size: 18px ;}
+  }
+
+@media (max-width: 605px) {
+
+ .top-fix .owl-carousel .owl-nav{position: static;}
+ .top-fix .owl-carousel .owl-nav .owl-prev {
+  position: static;
+  margin-right: 20px;
+  padding: 30px 40px;
+  border-radius: 4px;
+
+  &:hover {
+   opacity: 0.8;
+   transition: all .6s ease;
+  }
+ }
+
+ .top-fix .owl-carousel .owl-nav .owl-next {
+  position: static;
+  margin-left: 20px;
+  padding: 30px 40px;
+  border-radius: 4px;
+
+  &:hover {
+   opacity: 0.8;
+   transition: all .6s ease;
+  }
+ }
+ .top-fix .price-time {margin-top: 30px;}
+}
+
+@media (max-width: 650px) {
+ .big{display: none;}
+ .small{display: block !important;}
+}
+
+@media (max-width: 550px) {
+ .top-fix .container  .owl-carousel{width:300px; img{width: 300px;}
+ }
+
+ .top-fix .container { .main-header{font-size: 30px; margin-top: 50px;}}
+ .usual-header {font-size: 28px;}
+ .compare-fix .container {overflow: auto; .compare-table{font-size: 13px;}}
+ .price-time{padding: 10px;}
+}
+
+@media (max-width: 400px) {
+ .small{display: none !important;}
+ .very-small{display: block !important;}
+ .price-time h5 span {font-size: 34px;}
+}
+
+
+
+@media (max-width: 350px) {
+ .top-fix .container .owl-carousel {
+  width: 260px;
+  img {
+   width: 260px;
+  }
+
+ }
+}}
+
+
+
+
