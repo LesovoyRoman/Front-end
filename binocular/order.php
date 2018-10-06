@@ -7,7 +7,7 @@ $work = $_POST['work'];
 $years = $_POST['years'];
 
 $to = "fnalob@gmail.com, nalobhl720@gmail.com";
-$subject = 'Рассчет стоимости | Заказ Биноклей';
+$subject = 'Расчёт стоимости | Заказ Биноклей';
 $message = '
 <!doctype html>
 <html lang=ru>
