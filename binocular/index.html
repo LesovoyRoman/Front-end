@@ -1,758 +1,727 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport"
-		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Document</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link rel="stylesheet" href="style/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="style/main.css">
 </head>
 <body>
 
 <header>
+  <div class="top-head-wrap">
 
-	<div class="top-head-wrap">
+  <div class="navigation-wrap">
+    <div class="down-menu">
+      <div class="container">
+        <div class="row pad">
+            <ul>
+              <div class="items">
+                <li><a href="#main">Главная</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#shipping">Доставка</a></li>
+                <li><a href="#guarantee">Гарантия</a></li>
+                <li class="call-button"><a class="orderPoor" href="#questions">Заказать обратный звонок</a></li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-<div class="navigation-wrap">
-	<div class="down-menu">
-					<div class="container">
-						<div class="row pad">
-								<ul>
-									<div class="items">
-										<li><a href="#main">Главная</a></li>
-										<li><a href="#gallery">Галерея</a></li>
-										<li><a href="#reviews">Отзывы</a></li>
-										<li><a href="#shipping">Доставка</a></li>
-										<li><a href="#guarantee">Гарантия</a></li>
-										<li class="call-button"><a class="orderPoor" href="#questions">Заказать обратный звонок</a></li>
-									</div>
-								</ul>
-							</div>
-						</div>
-					</div>
-	
-					<div class="mobile-navigate">
-	                    <div class="nav-btn" style="display: none;">
-	                        <div class="mem">
-	                        	<span class="stick"></span>
-	                        </div>
-	                    </div>
-	                    <div class="nav-wrapper" style="display: none;">
-	                        <ul class="is-hidden">
-	                            <li><a href="#main">Главная</a></li>
-								<li><a href="#gallery">Галерея</a></li>
-								<li><a href="#reviews">Отзывы</a></li>
-								<li><a href="#shipping">Доставка</a></li>
-								<li><a href="#guarantee">Гарантия</a></li>
-								<li class="call-button"><a class="orderPoor" href="#questions">Заказать обратный звонок</a></li>
-	                        </ul>
-	                    </div>
-	                	</div>
-</div>
-
-
-		<div class="container hat">
-
-			<div class="row top-head">
-				<div class="col-md-6 deadline">
-					<div class="logo-wrap">
-						<h1>Logotipson</h1>
-						<p class="sub-head">Интернет магазин оптики<br>с доставкой по всей РФ</p>
-					</div>
-				</div>
-
-				<div class="col-md-6 contacts">
-					<a class="tel" href="tel:+74999999999"><p>8-499-999-99-99</p></a>
-					<a href="#" style="text-decoration: none">г. Москва Дмитровское шоссе д. 11 стр. 5</a>
-				</div>
-
-
-				<div class="col-md-12 vertical">
-					<nav id="menu" style="display: none;">
-						<ul>
-							<div class="items">
-								<li><a href="#main">Главная</a></li>
-								<li><a href="#gallery">Галерея</a></li>
-								<li><a href="#reviews">Отзывы</a></li>
-								<li><a href="#shipping">Доставка</a></li>
-								<li><a href="#guarantee">Гарантия</a></li>
-								<li class="call-button"><a class="orderPoor" href="#questions">Заказать обратный звонок</a></li>
-							</div>
-						</ul>
-					</nav>
-				</div>
-
-				<div class="mobile-navigate">
-                    <div class="nav-btn" style="display: none;">
-                        <span class="stick"></span>
-                    </div>
-                    <div class="nav-wrapper" style="display: none;">
-                        <ul class="is-hidden">
-                            <li><a href="#main">Главная</a></li>
-							<li><a href="#gallery">Галерея</a></li>
-							<li><a href="#reviews">Отзывы</a></li>
-							<li><a href="#shipping">Доставка</a></li>
-							<li><a href="#guarantee">Гарантия</a></li>
-							<li class="call-button"><a class="orderPoor" href="#questions">Заказать обратный звонок</a></li>
-                        </ul>
+      <div class="mobile-navigate">
+                <div class="nav-btn" style="display: none;">
+                    <div class="mem">
+                      <span class="stick"></span>
                     </div>
                 </div>
+                <div class="nav-wrapper" style="display: none;">
+                    <ul class="is-hidden">
+                        <li><a href="#main">Главная</a></li>
+            <li><a href="#gallery">Галерея</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+            <li><a href="#shipping">Доставка</a></li>
+            <li><a href="#guarantee">Гарантия</a></li>
+            <li class="call-button"><a class="orderPoor" href="#questions">Заказать обратный звонок</a></li>
+                    </ul>
+                </div>
+          </div>
+    </div>
 
-			</div>
 
-			
-		</div>
+    <div class="container hat">
+      <div class="row top-head">
+        <div class="col-md-6 deadline">
+          <div class="logo-wrap">
+            <h1>Logotipson</h1>
+            <p class="sub-head">Интернет магазин оптики<br>с доставкой по всей РФ</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 contacts">
+          <a class="tel" href="tel:+74999999999"><p>8-499-999-99-99</p></a>
+          <a href="#" style="text-decoration: none">г. Москва Дмитровское шоссе д. 11 стр. 5</a>
+        </div>
 
 
-	</div>
+        <div class="col-md-12 vertical">
+          <nav id="menu" style="display: none;">
+            <ul>
+              <div class="items">
+                <li><a href="#main">Главная</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#shipping">Доставка</a></li>
+                <li><a href="#guarantee">Гарантия</a></li>
+                <li class="call-button"><a class="orderPoor" href="#questions">Заказать обратный звонок</a></li>
+              </div>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="mobile-navigate">
+          <div class="nav-btn" style="display: none;">
+              <span class="stick"></span>
+          </div>
+          <div class="nav-wrapper" style="display: none;">
+              <ul class="is-hidden">
+                <li><a href="#main">Главная</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#shipping">Доставка</a></li>
+                <li><a href="#guarantee">Гарантия</a></li>
+                <li class="call-button"><a class="orderPoor" href="#questions">Заказать обратный звонок</a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-	<div id="main" class="header-content">
-		<div class="container">
+  <div id="main" class="header-content">
+    <div class="container">
 
-			<h2>Надежный и удобный бинокль Galileo 70x70 всего за 2990р<br>идеален для охоты, рыбалки и просто для наблюдения</h2>
-			<h3>Чёткая картинка без искажений, стеклянные линзы, обрезиненный корпус</h3>
+      <h2>Надежный и удобный бинокль Galileo 70x70 всего за 2990р<br>идеален для охоты, рыбалки и просто для наблюдения</h2>
+      <h3>Чёткая картинка без искажений, стеклянные линзы, обрезиненный корпус</h3>
 
-			<div class="row btm">
+      <div class="row btm">
+        <div class="col-md-5">
+          <img class="image" src="img/img_5800.jpg" alt="">
+          <div class="block-wrap">
+            <div class="block">
+              <p>Сэкономьте <span>3000</span> рублей</p>
+              <p class="line">Старая цена <span>5990</span> рублей</p>
+              <p>Ваша цена <span class="big-price">2990</span> рублей</p>
+            </div>
+          </div>
+        </div>
 
-				<div class="col-md-5">
-					<img class="image" src="img/img_5800.jpg" alt="">
-					<div class="block-wrap">
-						<div class="block">
-							<p>Сэкономьте <span>3000</span> рублей</p>
-							<p class="line">Старая цена <span>5990</span> рублей</p>
-							<p>Ваша цена <span class="big-price">2990</span> рублей</p>
-						</div>
-					</div>
-				</div>
+        <div class="col-md-4">
+          <div class="two-block">
+            <ul>
+              <li>Гарантия <span>2</span> года</li>
+              <li>Скидка <span>50%</span> по акции</li>
+              <li>Тест-драйв <span>14</span> дней</li>
+              <li>Каждому ценный подарок стоимостью <span>990</span> рублей</li>
+              <img src="img/knife-price.PNG" alt="">
+            </ul>
+          </div>
+        </div>
 
-				<div class="col-md-4">
-					<div class="two-block">
-						<ul>
-							<li>Гарантия <span>2</span> года</li>
-							<li>Скидка <span>50%</span> по акции</li>
-							<li>Тест-драйв <span>14</span> дней</li>
-							<li>Каждому ценный подарок стоимостью <span>990</span> рублей</li>
-							<img src="img/knife-price.PNG" alt="">
-						</ul>
-					</div>
-				</div>
-
-				<div class="col-md-3">
-					<div class="border-block">
-						<h5>Получите подробную информацию у наших менеджеров</h5>
-						<form action="callback.php" method="post">
-							<input type="text" placeholder="Введите имя" name="name">
-							<input type="text" placeholder="Введите телефон" name="phone">
-							<input class="btn" type="submit" value="Получить консультацию">
-						</form>
-						<p>Сегодня уже заказали: <span class="counter">xxx</span></p>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</div>
+        <div class="col-md-3">
+          <div class="border-block">
+            <h5>Получите подробную информацию у наших менеджеров</h5>
+            <form action="callback.php" method="post">
+              <input type="text" placeholder="Введите имя" name="name">
+              <input type="text" placeholder="Введите телефон" name="phone">
+              <input class="btn" type="submit" value="Получить консультацию">
+            </form>
+            <p>Сегодня уже заказали: <span class="counter">xxx</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </header>
 
 
 <!-- OWL CAROUSEL -->
 <div id="reviews" class="reviews-wrap">
-	<div class="container head-rvw">
-		<h3>Отзывы обладателей бинокля Galileo 70x70</h3>
-	</div>
-	<section class="reviews owl-carousel owl-theme">
-		<div class="container one-review">
-			<div class="col-md-3">
-				<img src="img/man.jpg" alt="">
-			</div>
-			<div class="col-md-9 review-text">
-				<h4>Иванов Максим, 45 лет, строитель</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
-				<div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
-				<button onclick="changeState()" class="show-content">Читать полностью</button>
-			</div>
-		</div>
-		<div class="container one-review">
-			<div class="col-md-3">
-				<img src="img/man7.jpg" alt="">
-			</div>
-			<div class="col-md-9 review-text">
-				<h4>Иванов Максим, 45 лет, строитель</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
-				<div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
-				<button onclick="changeState()" class="show-content">Читать полностью</button>
-			</div>
-		</div>
-		<div class="container one-review">
-			<div class="col-md-3">
-				<img src="img/man1.jpg" alt="">
-			</div>
-			<div class="col-md-9 review-text">
-				<h4>Иванов Максим, 45 лет, строитель</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
-				<div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
-				<button onclick="changeState()" class="show-content">Читать полностью</button>
-			</div>
-		</div>
-		<div class="container one-review">
-			<div class="col-md-3">
-				<img src="img/man2.jpg" alt="">
-			</div>
-			<div class="col-md-9 review-text">
-				<h4>Иванов Максим, 45 лет, строитель</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
-				<div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
-				<button onclick="changeState()" class="show-content">Читать полностью</button>
-			</div>
-		</div>
-		<div class="container one-review">
-			<div class="col-md-3">
-				<img src="img/man3.jpg" alt="">
-			</div>
-			<div class="col-md-9 review-text">
-				<h4>Иванов Максим, 45 лет, строитель</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
-				<div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
-				<button onclick="changeState()" class="show-content">Читать полностью</button>
-			</div>
-		</div>
-		<div class="container one-review">
-			<div class="col-md-3">
-				<img src="img/man4.jpg" alt="">
-			</div>
-			<div class="col-md-9 review-text">
-				<h4>Иванов Максим, 45 лет, строитель</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
-				<div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
-				<button onclick="changeState()" class="show-content">Читать полностью</button>
-			</div>
-		</div>
-		<div class="container one-review">
-			<div class="col-md-3">
-				<img src="img/man5.jpg" alt="">
-			</div>
-			<div class="col-md-9 review-text">
-				<h4>Иванов Максим, 45 лет, строитель</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
-				<div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
-				<button onclick="changeState()" class="show-content">Читать полностью</button>
-			</div>
-		</div>
-		<div class="container one-review">
-			<div class="col-md-3">
-				<img src="img/man6.jpg" alt="">
-			</div>
-			<div class="col-md-9 review-text">
-				<h4>Иванов Максим, 45 лет, строитель</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
-				<div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
-				<button onclick="changeState()" class="show-content">Читать полностью</button>
-			</div>
-		</div>
-	</section>
+  <div class="container head-rvw">
+    <h3>Отзывы обладателей бинокля Galileo 70x70</h3>
+  </div>
+  <section class="reviews owl-carousel owl-theme">
+    <div class="container one-review">
+      <div class="col-md-3">
+        <img src="img/man.jpg" alt="">
+      </div>
+      <div class="col-md-9 review-text">
+        <h4>Иванов Максим, 45 лет, строитель</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
+        <div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
+        <button onclick="changeState()" class="show-content">Читать полностью</button>
+      </div>
+    </div>
+    <div class="container one-review">
+      <div class="col-md-3">
+        <img src="img/man7.jpg" alt="">
+      </div>
+      <div class="col-md-9 review-text">
+        <h4>Иванов Максим, 45 лет, строитель</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
+        <div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
+        <button onclick="changeState()" class="show-content">Читать полностью</button>
+      </div>
+    </div>
+    <div class="container one-review">
+      <div class="col-md-3">
+        <img src="img/man1.jpg" alt="">
+      </div>
+      <div class="col-md-9 review-text">
+        <h4>Иванов Максим, 45 лет, строитель</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
+        <div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
+        <button onclick="changeState()" class="show-content">Читать полностью</button>
+      </div>
+    </div>
+    <div class="container one-review">
+      <div class="col-md-3">
+        <img src="img/man2.jpg" alt="">
+      </div>
+      <div class="col-md-9 review-text">
+        <h4>Иванов Максим, 45 лет, строитель</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
+        <div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
+        <button onclick="changeState()" class="show-content">Читать полностью</button>
+      </div>
+    </div>
+    <div class="container one-review">
+      <div class="col-md-3">
+        <img src="img/man3.jpg" alt="">
+      </div>
+      <div class="col-md-9 review-text">
+        <h4>Иванов Максим, 45 лет, строитель</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
+        <div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
+        <button onclick="changeState()" class="show-content">Читать полностью</button>
+      </div>
+    </div>
+    <div class="container one-review">
+      <div class="col-md-3">
+        <img src="img/man4.jpg" alt="">
+      </div>
+      <div class="col-md-9 review-text">
+        <h4>Иванов Максим, 45 лет, строитель</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
+        <div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
+        <button onclick="changeState()" class="show-content">Читать полностью</button>
+      </div>
+    </div>
+    <div class="container one-review">
+      <div class="col-md-3">
+        <img src="img/man5.jpg" alt="">
+      </div>
+      <div class="col-md-9 review-text">
+        <h4>Иванов Максим, 45 лет, строитель</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
+        <div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
+        <button onclick="changeState()" class="show-content">Читать полностью</button>
+      </div>
+    </div>
+    <div class="container one-review">
+      <div class="col-md-3">
+        <img src="img/man6.jpg" alt="">
+      </div>
+      <div class="col-md-9 review-text">
+        <h4>Иванов Максим, 45 лет, строитель</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
+        <div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
+        <button onclick="changeState()" class="show-content">Читать полностью</button>
+      </div>
+    </div>
+  </section>
 </div>
 
 <section class="why-we">
-	<div class="container">
+  <div class="container">
 
-		<h3>Почему мы?</h3>
+    <h3>Почему мы?</h3>
 
-		<div class="row">
-			<div class="col-md-4">
-				<div class="content-wrap">
-					<h5>Тест-драйв 14 дней</h5>
-					<p>Не понравится бинокль<br>вернем деньги без<br>объяснения причин</p>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="content-wrap">
-					<h5>Мы профессионалы</h5>
-					<p>Продаем товары для<br>охоты и рыбалки с 1991<br>года</p>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="content-wrap">
-					<h5>Низкие цены</h5>
-					<p>Можем позволить, так как<br>работаем напрямую, без<br> посредников</p>
-				</div>
-			</div>
-		</div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="content-wrap">
+          <h5>Тест-драйв 14 дней</h5>
+          <p>Не понравится бинокль<br>вернем деньги без<br>объяснения причин</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content-wrap">
+          <h5>Мы профессионалы</h5>
+          <p>Продаем товары для<br>охоты и рыбалки с 1991<br>года</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content-wrap">
+          <h5>Низкие цены</h5>
+          <p>Можем позволить, так как<br>работаем напрямую, без<br> посредников</p>
+        </div>
+      </div>
+    </div>
 
-		<div class="row">
-			<div class="col-md-4">
-				<div class="content-wrap">
-					<h5>1806 биноклей</h5>
-					<p>Продано биноклей<br>только за 2016 год</p>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="content-wrap">
-					<h5>2 возврата</h5>
-					<p>и 2 случая обмена<br>бинокля за прошлый год</p>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="content-wrap">
-					<h5>Отсутствие дефектов</h5>
-					<p>Все бинокли проходят<br>двойную проверку качества<br>при поступлении товара и при<br>отправке</p>
-				</div>
-			</div>
-		</div>
-
-	</div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="content-wrap">
+          <h5>1806 биноклей</h5>
+          <p>Продано биноклей<br>только за 2016 год</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content-wrap">
+          <h5>2 возврата</h5>
+          <p>и 2 случая обмена<br>бинокля за прошлый год</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content-wrap">
+          <h5>Отсутствие дефектов</h5>
+          <p>Все бинокли проходят<br>двойную проверку качества<br>при поступлении товара и при<br>отправке</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 
 
 <section id="gallery" class="binoculars-photo">
-	<div class="container">
+  <div class="container">
+    <h3>Фотографии бинокля</h3>
 
-		<h3>Фотографии бинокля</h3>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="content-wrap">
+          <img class="img-1" src="img/tovar70x70-2.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content-wrap">
+          <img class="img-2" src="img/galileo70x70.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content-wrap">
+          <img class="img-3" src="img/img_5889.jpg" alt="">
+        </div>
+      </div>
+    </div>
 
-		<div class="row">
-			<div class="col-md-4">
-				<div class="content-wrap">
-					<img class="img-1" src="img/tovar70x70-2.jpg" alt="">
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="content-wrap">
-					<img class="img-2" src="img/galileo70x70.jpg" alt="">
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="content-wrap">
-					<img class="img-3" src="img/img_5889.jpg" alt="">
-				</div>
-			</div>
-		</div>
+    <div class="row down-img">
+      <div class="col-md-4">
+        <div class="content-wrap">
+          <img class="img-4" src="img/img4.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content-wrap">
+          <img class="img-5" src="img/img5.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content-wrap">
+          <img class="img-6" src="img/img6.jpg" alt="">
+        </div>
+      </div>
+    </div>
 
-		<div class="row down-img">
-			<div class="col-md-4">
-				<div class="content-wrap">
-					<img class="img-4" src="img/img4.jpg" alt="">
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="content-wrap">
-					<img class="img-5" src="img/img5.jpg" alt="">
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="content-wrap">
-					<img class="img-6" src="img/img6.jpg" alt="">
-				</div>
-			</div>
-		</div>
-
-		<!--MODAL-->
-		<div class="application-wrap modal-pall-conf-binoculus modal-form-conf">
-			<div class="modal-conf-binoculus">
-				<div class="modal-header">
-					<a href="#" class="close-modal"></a>
-				</div>
-				<div class="left-close-pall"></div>
-				<div class="right-close-pall"></div>
-				<div class="modal-body">
-					<div class="owl-carousel owl-theme">
-						<div class="wrap-img-slide-binoculus-1"></div>
-						<div class="wrap-img-slide-binoculus-2"></div>
-						<div class="wrap-img-slide-binoculus-3"></div>
-						<div class="wrap-img-slide-binoculus-4"></div>
-						<div class="wrap-img-slide-binoculus-5"></div>
-						<div class="wrap-img-slide-binoculus-6"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</div>
+    <!--MODAL-->
+    <div class="application-wrap modal-pall-conf-binoculus modal-form-conf">
+      <div class="modal-conf-binoculus">
+        <div class="modal-header">
+          <a href="#" class="close-modal"></a>
+        </div>
+        <div class="left-close-pall"></div>
+        <div class="right-close-pall"></div>
+        <div class="modal-body">
+          <div class="owl-carousel owl-theme">
+            <div class="wrap-img-slide-binoculus-1"></div>
+            <div class="wrap-img-slide-binoculus-2"></div>
+            <div class="wrap-img-slide-binoculus-3"></div>
+            <div class="wrap-img-slide-binoculus-4"></div>
+            <div class="wrap-img-slide-binoculus-5"></div>
+            <div class="wrap-img-slide-binoculus-6"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-
 <section class="characteristics">
+  <h3>Характеристики бинокля</h3>
 
-	<h3>Характеристики бинокля</h3>
+  <div class="container">
+    <div class="row chars">
+      <div class="col-md-6 list">
+        <ul>
+          <li>Материал линз: стекло Bak-4</li>
+          <li>Тип линз: асферические</li>
+          <li>Материал корпуса: обрезиненный</li>
+          <li>Поле зрения: 78 метров на 1000м</li>
+          <li>Система призм: Porro</li>
+          <li>Вес: 635 грамм</li>
+          <li>Диаметр объектива: 50 мм</li>
+          <li>Диаметр окуляра: </li>
+          <li>Габариты: </li>
+          <li>Регулировка глаз</li>
+        </ul>
+      </div>
 
-	<div class="container">
-
-		<div class="row chars">
-			<div class="col-md-6 list">
-				<ul>
-					<li>Материал линз: стекло Bak-4</li>
-					<li>Тип линз: асферические</li>
-					<li>Материал корпуса: обрезиненный</li>
-					<li>Поле зрения: 78 метров на 1000м</li>
-					<li>Система призм: Porro</li>
-					<li>Вес: 635 грамм</li>
-					<li>Диаметр объектива: 50 мм</li>
-					<li>Диаметр окуляра: </li>
-					<li>Габариты: </li>
-					<li>Регулировка глаз</li>
-				</ul>
-			</div>
-
-			<div class="col-md-6 list">
-				<ul>
-					<li>Центральная фокусировка: есть</li>
-					<li>Минимальное расстояние фокусировки: 10 метров</li>
-					<li>Просветляющее покрытие: есть</li>
-					<li>Ночное видение: нет</li>
-					<li>Межзрачковое расстояние: </li>
-					<li>Регулировка диоптрий: есть</li>
-					<li>Гнездо на шарнире: есть</li>
-					<li>Рабочие температуры: -50 + 60 &deg;C</li>
-				</ul>
-			</div>
-		</div>
-
-	</div>
-
+      <div class="col-md-6 list">
+        <ul>
+          <li>Центральная фокусировка: есть</li>
+          <li>Минимальное расстояние фокусировки: 10 метров</li>
+          <li>Просветляющее покрытие: есть</li>
+          <li>Ночное видение: нет</li>
+          <li>Межзрачковое расстояние: </li>
+          <li>Регулировка диоптрий: есть</li>
+          <li>Гнездо на шарнире: есть</li>
+          <li>Рабочие температуры: -50 + 60 &deg;C</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
 
 
 <section class="knife">
-	<div class="container">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="img/knife.jpg" alt="">
+        <div class="present">
+          <span class="gift">Подарок!</span>
+        </div>
+      </div>
 
-		<div class="row">
-			<div class="col-md-4">
-				<img src="img/knife.jpg" alt="">
-				<div class="present">
-					<span class="gift">Подарок!</span>
-				</div>
-			</div>
+      <div class="col-md-4">
+        <h4>Получить нож<br>в подарок!</h4>
+      </div>
 
-			<div class="col-md-4">
-				<h4>Получить нож<br>в подарок!</h4>
-			</div>
-
-			<div class="col-md-4">
-				<div class="border-block">
-					<form action="callback.php" method="post">
-						<input type="text" placeholder="Введите имя" name="name">
-						<input type="text" placeholder="Введите телефон" name="phone">
-						<input class="btn" type="submit" value="Получить">
-					</form>
-				</div>
-			</div>
-		</div>
-
-	</div>
+      <div class="col-md-4">
+        <div class="border-block">
+          <form action="callback.php" method="post">
+            <input type="text" placeholder="Введите имя" name="name">
+            <input type="text" placeholder="Введите телефон" name="phone">
+            <input class="btn" type="submit" value="Получить">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 
-	<section class="features">
-		<h3>Особенности бинокля</h3>
-		<div class="container">
-			<div class="col-md-4 col-sm-6">
-				<img src="img/features1.png" alt="">
-				<p class="feature">прорезиненный корпус</p>
-				<span>надежно лежит в руке</span>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<img src="img/features2.png" alt="">
-				<p class="feature">точная фокусировка</p>
-				<span>ручная настройка фокуса</span>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<img src="img/features3.png" alt="">
-				<p class="feature">всепогодный</p>
-				<span>от -40 до +50 С</span>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<img src="img/features4.png" alt="">
-				<p class="feature">влагостойкий</p>
-				<span></span>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<img src="img/features5.png" alt="">
-				<p class="feature">просветляющее покрытие</p>
-				<span>яркое изображение</span>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<img src="img/features6.png" alt="">
-				<p class="feature">Гнездо для крепления штатива</p>
-				<span></span>
-			</div>
+<section class="features">
+  <h3>Особенности бинокля</h3>
+  <div class="container">
+    <div class="col-md-4 col-sm-6">
+      <img src="img/features1.png" alt="">
+      <p class="feature">прорезиненный корпус</p>
+      <span>надежно лежит в руке</span>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <img src="img/features2.png" alt="">
+      <p class="feature">точная фокусировка</p>
+      <span>ручная настройка фокуса</span>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <img src="img/features3.png" alt="">
+      <p class="feature">всепогодный</p>
+      <span>от -40 до +50 С</span>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <img src="img/features4.png" alt="">
+      <p class="feature">влагостойкий</p>
+      <span></span>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <img src="img/features5.png" alt="">
+      <p class="feature">просветляющее покрытие</p>
+      <span>яркое изображение</span>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <img src="img/features6.png" alt="">
+      <p class="feature">Гнездо для крепления штатива</p>
+      <span></span>
+    </div>
 
-				<!--MODAL-->
-<!-- 				<div class="application-wrap modal-pall-conf modal-form-conf">
-	<div class="modal-conf">
-		<div class="modal-header">
-			<a href="#" class="close-modal"></a>
-		</div>
-		<div class="left-close-pall"></div>
-		<div class="right-close-pall"></div>
+        <!--MODAL-->
+<!--        <div class="application-wrap modal-pall-conf modal-form-conf">
+  <div class="modal-conf">
+    <div class="modal-header">
+      <a href="#" class="close-modal"></a>
+    </div>
+    <div class="left-close-pall"></div>
+    <div class="right-close-pall"></div>
 
-		<div class="modal-body">
-			<div class="owl-carousel owl-theme">
-				<div class="wrap-img-slide-1"></div>
-				<div class="wrap-img-slide-2"></div>
-				<div class="wrap-img-slide-3"></div>
-				<div class="wrap-img-slide-4"></div>
-				<div class="wrap-img-slide-5"></div>
-				<div class="wrap-img-slide-6"></div>
-			</div>
-		</div>
-	</div>
+    <div class="modal-body">
+      <div class="owl-carousel owl-theme">
+        <div class="wrap-img-slide-1"></div>
+        <div class="wrap-img-slide-2"></div>
+        <div class="wrap-img-slide-3"></div>
+        <div class="wrap-img-slide-4"></div>
+        <div class="wrap-img-slide-5"></div>
+        <div class="wrap-img-slide-6"></div>
+      </div>
+    </div>
+  </div>
 </div> -->
-			</div>
-	</section>
+  </div>
+</section>
 
+<section class="set">
+  <h3>Комплектация бинокля</h3>
+  <div class="container">
+    <div class="col-md-6">
+      <ul>
+        <li>Бинокль Galileo 70*70</li>
+        <li>Сумка для удобной переноски с ремнем на шею</li>
+        <li>Ремешок для бинокля</li>
+        <li>2 колпака на объективы</li>
+        <li>2 колпака на окуляры</li>
+        <li>Салфетка для линз</li>
+        <li>Инструкция</li>
+        <li>Картонная коробка</li>
+        <li class="signed">Купон на скидку 10% на повторные покупки</li>
+        <li class="signed">Складной нож в Подарок</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <div class="wrap-img">
+        <img src="img/picture.PNG" alt="">
+      </div>
+    </div>
+  </div>
+  <a href="#" class="order-me orderPoor">Заказать со скидкой</a>
+  <div class="application-wrap modal-pall-order modal-form-order">
+    <div class="modal-order">
+      <div class="container">
+        <div class="modal-header">
+          <a href="#" class="close-modal"></a>
+        </div>
 
+        <div class="left-close-pall"></div>
+        <div class="right-close-pall"></div>
 
+        <div class="modal-body">
+          <form action="callback.php" method="post" name="order">
+            <h3>Заказать со скидкой</h3>
+            <input type="text" name="name" placeholder="Введите имя">
+            <input type="text" name="phone" placeholder="Телефон">
+            <button type="submit">Заказать</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
+<section class="feedbacks">
+  <h3>Отзывы наших покупателей</h3>
+  <div class="container">
+    <section class="reviews owl-carousel owl-theme">
+      <div class="container">
+        <div class="col-md-3">
+          <img src="img/man.jpg" alt="">
+        </div>
+        <div class="col-md-9">
+          <h4>Иванов Максим, 45 лет, строитель</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
+          <div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
+          <button onclick="changeState()" class="show-content">Читать полностью</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="col-md-3">
+          <img src="img/man1.jpg" alt="">
+        </div>
+        <div class="col-md-9">
+          <h4>Иванов Максим, 45 лет, строитель</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
+          <div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
+          <button onclick="changeState()" class="show-content">Читать полностью</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="col-md-3">
+          <img src="img/man2.jpg" alt="">
+        </div>
+        <div class="col-md-9">
+          <h4>Иванов Максим, 45 лет, строитель</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
+          <div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
+          <button onclick="changeState()" class="show-content">Читать полностью</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="col-md-3">
+          <img src="img/man3.jpg" alt="">
+        </div>
+        <div class="col-md-9">
+          <h4>Иванов Максим, 45 лет, строитель</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
+          <div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
+          <button onclick="changeState()" class="show-content">Читать полностью</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="col-md-3">
+          <img src="img/man4.jpg" alt="">
+        </div>
+        <div class="col-md-9">
+          <h4>Иванов Максим, 45 лет, строитель</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
+          <div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
+          <button onclick="changeState()" class="show-content">Читать полностью</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="col-md-3">
+          <img src="img/man5.jpg" alt="">
+        </div>
+        <div class="col-md-9">
+          <h4>Иванов Максим, 45 лет, строитель</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
+          <div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
+          <button onclick="changeState()" class="show-content">Читать полностью</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="col-md-3">
+          <img src="img/man6.jpg" alt="">
+        </div>
+        <div class="col-md-9">
+          <h4>Иванов Максим, 45 лет, строитель</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
+          <div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
+          <button onclick="changeState()" class="show-content">Читать полностью</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="col-md-3">
+          <img src="img/man7.jpg" alt="">
+        </div>
+        <div class="col-md-9">
+          <h4>Иванов Максим, 45 лет, строитель</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
+          <div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
+          <button onclick="changeState()" class="show-content">Читать полностью</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <a href="#" class="order-me leave-feedback">Оставить отзыв</a>
+  <div class="application-wrap modal-pall-feedback modal-form-feedback">
+    <div class="modal-feedback">
+      <div class="container">
+        <div class="modal-header">
+          <a href="#" class="close-modal"></a>
+        </div>
 
-	<section class="set">
-		<h3>Комплектация бинокля</h3>
-		<div class="container">
-			<div class="col-md-6">
-				<ul>
-					<li>Бинокль Galileo 70*70</li>
-					<li>Сумка для удобной переноски с ремнем на шею</li>
-					<li>Ремешок для бинокля</li>
-					<li>2 колпака на объективы</li>
-					<li>2 колпака на окуляры</li>
-					<li>Салфетка для линз</li>
-					<li>Инструкция</li>
-					<li>Картонная коробка</li>
-					<li class="signed">Купон на скидку 10% на повторные покупки</li>
-					<li class="signed">Складной нож в Подарок</li>
-				</ul>
-			</div>
-			<div class="col-md-6">
-				<div class="wrap-img">
-					<img src="img/picture.PNG" alt="">
-				</div>
-			</div>
-		</div>
-		<a href="#" class="order-me orderPoor">Заказать со скидкой</a>
-		<div class="application-wrap modal-pall-order modal-form-order">
-			<div class="modal-order">
-				<div class="container">
-					<div class="modal-header">
-						<a href="#" class="close-modal"></a>
-					</div>
+        <div class="left-close-pall"></div>
+        <div class="right-close-pall"></div>
 
-					<div class="left-close-pall"></div>
-					<div class="right-close-pall"></div>
+        <div class="modal-body">
+          <form action="order.php" method="post" name="feedback">
+            <h3>Оставить отзыв</h3>
+            <input type="text" placeholder="Введите имя" name="name">
+            <input type="text" placeholder="Возраст" name="years">
+            <input type="text" placeholder="Род деятельности" name="work">
+            <input type="text" placeholder="Телефон для связи" name="phone">
+            <textarea placeholder="Отзыв" name="text"></textarea>
+            <button type="submit">Оставить отзыв</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-					<div class="modal-body">
-						<form action="callback.php" method="post" name="order">
-							<h3>Заказать со скидкой</h3>
-							<input type="text" name="name" placeholder="Введите имя">
-							<input type="text" name="phone" placeholder="Телефон">
-							<button type="submit">Заказать</button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+<section id="shipping" class="payment">
+  <h3>Доставка и оплата</h3>
+  <div class="container">
+    <div class="col-md-8">
+      <p class="bring">Доставка по Москве курьером на следующий день после заказа<br>Стоимость доставки - 300 рублей.<br>Оплата курьеру после проверки товара.</p>
+      <p class="bring">Доставка по России от 3х дней по почте России<br>Стоимость доставки - 300-400 рублей.<br>Оплата по факту получения на почте.</p>
+    </div>
+    <div class="col-md-4">
+      <img src="img/picture.PNG" alt="">
+    </div>
+  </div>
+</section>
 
+<section id="guarantee" class="buy-me">
+  <div class="header-content">
+    <div class="container">
+      <h2>Закажите мощный бинокль Galileo 70x70!<br>Скидка 3000руб. Распродажа осталось 12 шт. Успейте!</h2>
+      <div class="row">
+        <div class="col-md-5">
+          <img class="image" src="img/img_5800.jpg" alt="">
+          <div class="block">
+            <p>Сэкономьте <span>3000</span> рублей</p>
+            <p class="line">Старая цена <span>5990</span> рублей</p>
+            <p>Ваша цена <span>2990</span> рублей</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="two-block">
+            <ul>
+              <li>Гарантия <span>2</span> года</li>
+              <li>Скидка <span>50%</span> по акции</li>
+              <li>Тест-драйв <span>14</span> дней</li>
+              <li class="last-li">Каждому ценный подарок стоимостью <span>990</span> рублей</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="border-block">
+            <h5>Получите подробную информацию у наших менеджеров</h5>
+            <form action="callback.php" method="post">
+              <input type="text" placeholder="Введите имя" name="name">
+              <input type="text" placeholder="Введите телефон" name="phone">
+              <input class="btn" type="submit" value="Получить консультацию">
+            </form>
+            <p>Сегодня уже заказали: <span class="counter">xxx</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt">
+      <div class="col-md-4 col-sm-6">
+        <p>ИП Петров С.И.</p>
+        <p>Огрн 3453456345634564</p>
+        <p>г. Москва ул. Вавилова 3 стр 11</p>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <p>Политика конфиденциальности</p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <a class="order-call orderPoor" href="#">Закажите обратный звонок</a>
+        <a class="tel" href="tel:+84999999999"><p>8-499-999-99-99</p></a>
+      </div>
+    </div>
+  </div>
+</section>
 
+<!--MODAL-->
 
-	<section class="feedbacks">
-		<h3>Отзывы наших покупателей</h3>
-		<div class="container">
-			<section class="reviews owl-carousel owl-theme">
-				<div class="container">
-					<div class="col-md-3">
-						<img src="img/man.jpg" alt="">
-					</div>
-					<div class="col-md-9">
-						<h4>Иванов Максим, 45 лет, строитель</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
-						<div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
-						<button onclick="changeState()" class="show-content">Читать полностью</button>
-					</div>
-				</div>
-				<div class="container">
-					<div class="col-md-3">
-						<img src="img/man1.jpg" alt="">
-					</div>
-					<div class="col-md-9">
-						<h4>Иванов Максим, 45 лет, строитель</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
-						<div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
-						<button onclick="changeState()" class="show-content">Читать полностью</button>
-					</div>
-				</div>
-				<div class="container">
-					<div class="col-md-3">
-						<img src="img/man2.jpg" alt="">
-					</div>
-					<div class="col-md-9">
-						<h4>Иванов Максим, 45 лет, строитель</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
-						<div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
-						<button onclick="changeState()" class="show-content">Читать полностью</button>
-					</div>
-				</div>
-				<div class="container">
-					<div class="col-md-3">
-						<img src="img/man3.jpg" alt="">
-					</div>
-					<div class="col-md-9">
-						<h4>Иванов Максим, 45 лет, строитель</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
-						<div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
-						<button onclick="changeState()" class="show-content">Читать полностью</button>
-					</div>
-				</div>
-				<div class="container">
-					<div class="col-md-3">
-						<img src="img/man4.jpg" alt="">
-					</div>
-					<div class="col-md-9">
-						<h4>Иванов Максим, 45 лет, строитель</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
-						<div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
-						<button onclick="changeState()" class="show-content">Читать полностью</button>
-					</div>
-				</div>
-				<div class="container">
-					<div class="col-md-3">
-						<img src="img/man5.jpg" alt="">
-					</div>
-					<div class="col-md-9">
-						<h4>Иванов Максим, 45 лет, строитель</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
-						<div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
-						<button onclick="changeState()" class="show-content">Читать полностью</button>
-					</div>
-				</div>
-				<div class="container">
-					<div class="col-md-3">
-						<img src="img/man6.jpg" alt="">
-					</div>
-					<div class="col-md-9">
-						<h4>Иванов Максим, 45 лет, строитель</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
-						<div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
-						<button onclick="changeState()" class="show-content">Читать полностью</button>
-					</div>
-				</div>
-				<div class="container">
-					<div class="col-md-3">
-						<img src="img/man7.jpg" alt="">
-					</div>
-					<div class="col-md-9">
-						<h4>Иванов Максим, 45 лет, строитель</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum adipisci natus consequuntur veritatis provident. Accusantium voluptas voluptatibus soluta obcaecati perspiciatis, nulla eaque velit vel modi unde nesciunt quibusdam doloribus dolores dolorum, suscipit, vero ullam. Atque velit veniam expedita odio dolorum dolor adipisci reiciendis voluptates nulla!</p>
-						<div class="hidden-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem ex minima perspiciatis placeat quia quibusdam vitae voluptatibus! Ad consequatur ducimus, eveniet fugit illo impedit iure libero maxime minima minus necessitatibus neque nobis officiis, placeat repellendus saepe sequi velit veniam? Ad animi atque error hic nihil non recusandae repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!e repellendus sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia recusandae sint vitae? Alias consequatur dignissimos eaque eligendi fugit hic illo labore, magnam molestias quaerat qui saepe ullam vero vitae!</div>
-						<button onclick="changeState()" class="show-content">Читать полностью</button>
-					</div>
-				</div>
-			</section>
-		</div>
-		<a href="#" class="order-me leave-feedback">Оставить отзыв</a>
-		<div class="application-wrap modal-pall-feedback modal-form-feedback">
-			<div class="modal-feedback">
-				<div class="container">
-					<div class="modal-header">
-						<a href="#" class="close-modal"></a>
-					</div>
-
-					<div class="left-close-pall"></div>
-					<div class="right-close-pall"></div>
-
-					<div class="modal-body">
-						<form action="order.php" method="post" name="feedback">
-							<h3>Оставить отзыв</h3>
-							<input type="text" placeholder="Введите имя" name="name">
-							<input type="text" placeholder="Возраст" name="years">
-							<input type="text" placeholder="Род деятельности" name="work">
-							<input type="text" placeholder="Телефон для связи" name="phone">
-							<textarea placeholder="Отзыв" name="text"></textarea>
-							<button type="submit">Оставить отзыв</button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="shipping" class="payment">
-		<h3>Доставка и оплата</h3>
-		<div class="container">
-			<div class="col-md-8">
-				<p class="bring">Доставка по Москве курьером на следующий день после заказа<br>Стоимость доставки - 300 рублей.<br>Оплата курьеру после проверки товара.</p>
-				<p class="bring">Доставка по России от 3х дней по почте России<br>Стоимость доставки - 300-400 рублей.<br>Оплата по факту получения на почте.</p>
-			</div>
-			<div class="col-md-4">
-				<img src="img/picture.PNG" alt="">
-			</div>
-		</div>
-	</section>
-
-	<section id="guarantee" class="buy-me">
-		<div class="header-content">
-			<div class="container">
-				<h2>Закажите мощный бинокль Galileo 70x70!<br>Скидка 3000руб. Распродажа осталось 12 шт. Успейте!</h2>
-				<div class="row">
-					<div class="col-md-5">
-						<img class="image" src="img/img_5800.jpg" alt="">
-						<div class="block">
-							<p>Сэкономьте <span>3000</span> рублей</p>
-							<p class="line">Старая цена <span>5990</span> рублей</p>
-							<p>Ваша цена <span>2990</span> рублей</p>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="two-block">
-							<ul>
-								<li>Гарантия <span>2</span> года</li>
-								<li>Скидка <span>50%</span> по акции</li>
-								<li>Тест-драйв <span>14</span> дней</li>
-								<li class="last-li">Каждому ценный подарок стоимостью <span>990</span> рублей</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="border-block">
-							<h5>Получите подробную информацию у наших менеджеров</h5>
-							<form action="callback.php" method="post">
-								<input type="text" placeholder="Введите имя" name="name">
-								<input type="text" placeholder="Введите телефон" name="phone">
-								<input class="btn" type="submit" value="Получить консультацию">
-							</form>
-							<p>Сегодня уже заказали: <span class="counter">xxx</span></p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="container mt">
-				<div class="col-md-4 col-sm-6">
-					<p>ИП Петров С.И.</p>
-					<p>Огрн 3453456345634564</p>
-					<p>г. Москва ул. Вавилова 3 стр 11</p>
-				</div>
-				<div class="col-md-4 col-sm-6">
-					<p>Политика конфиденциальности</p>
-				</div>
-				<div class="col-md-4 col-sm-12">
-					<a class="order-call orderPoor" href="#">Закажите обратный звонок</a>
-					<a class="tel" href="tel:+84999999999"><p>8-499-999-99-99</p></a>
-				</div>
-			</div>
-		</div>
-	</section>
-
-				<!--MODAL-->
-
-
-
-
-
-
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/main.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
